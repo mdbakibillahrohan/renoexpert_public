@@ -4,102 +4,98 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/asset/css/style.css" />
     <title>Reno Expert</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
-    <!-- menu bar start  -->
-
-    <div class="w-[1920px] h-[103px] relative">
-      <div
-        class="w-[1920px] h-[103px] px-[39px] py-[23px] left-0 top-0 absolute bg-stone-200 justify-start items-center gap-[1326px] inline-flex"
+    <div class="wrapper">
+      <!-- header start  -->
+      <header
+        class="header_wrapper w-full box-border bg-[#EEECE8] px-6 border-b-2 border-[#BEB8AE]"
       >
-        <img
-          class="w-[207.39px] h-10"
-          src="./asset/img/reno_logo.png"
-        />
-        <div
-          class="px-[47px] py-[18px] bg-[#FF6D43] rounded-[161px] justify-start items-center gap-5 flex"
-        >
-          <div
-            class="flex justify-center items-center gap-4"
-          >
-            <p class="text-stone-200 text-sm font-medium  leading-tight tracking-tight">Make a free quote</p>
-            <span><i class="fa-solid fa-arrow-right-long text-stone-200 "></i></span>
-            
+        <nav class="flex justify-between w-full h-20 items-center">
+          <div class="logo">
+            <a href="#">
+              <img src="./asset/img/reno_logo.png" alt="Reno Expert" />
+            </a>
+          </div>
+          <div class="">
+            <ul class="flex gap-6">
+              <li class="cursor-pointer">
+                <a class="text-[#291E18] text-lg" href="#"
+                  >Services
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    height="6"
+                    viewBox="0 0 10 6"
+                    fill="none"
+                    class="inline ml-1"
+                  >
+                    <path
+                      d="M5 6L0.669873 1.38009e-07L9.33013 8.95112e-07L5 6Z"
+                      fill="#FF6D43"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="cursor-pointer">
+                <a class="text-[#291E18] text-lg" href="#">About</a>
+              </li>
+              <li class="cursor-pointer">
+                <a class="text-[#291E18] text-lg" href="#">Testimonial</a>
+              </li>
+              <li class="cursor-pointer">
+                <a class="text-[#291E18] text-lg" href="#">Products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <a
+              class="bg-[#FF6D43] py-4 px-10 text-[#EEECE8] rounded-full cursor-pointer"
+              >Make a free quote
+              <i class="fa-solid fa-arrow-right-long ml-3"></i>
+            </a>
+          </div>
+        </nav>
+      </header>
+      <!-- header ends -->
+
+      <!-- here started the hero section  -->
+      <section
+        class="hero bg-[#EEECE8] h-[calc(100vh-18.5rem)] min-h-[35rem] w-full flex"
+      >
+        <div class="h-full w-[43%] flex justify-end items-center">
+          <div class="w-[37.6875rem] mr-6">
+            <h1 class="text-[2.7rem] leading-[3.24rem] text-[#291E18]">
+              Where Vision Meets Precision, Every Detail Matters.
+            </h1>
+            <p class="text-[1.125rem] my-12 text-[#291E18CC]">
+              At Renoexpert, we believe every home has a unique story to tell.
+              Our skilled team in Singapore specializes in turning your space
+              into a narrative of style, comfort, and innovation.
+            </p>
+            <a
+              class="bg-[#FF6D43] py-4 px-10 inline-block text-[#EEECE8] rounded-full cursor-pointer"
+              >Make a free quote
+              <i class="fa-solid fa-arrow-right-long ml-3"></i>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="w-[479px] h-7 left-[721px] top-[38px] absolute">
-        <div class="w-[92px] h-7 left-0 top-0 absolute">
-          <div
-            class="left-0 top-0 absolute text-stone-800 text-base font-normal font-['Transducer Test'] leading-7"
-          >
-          <a href="#">Services</a>
-            
-          </div>
+        <div class="h-full w-[57%] flex justify-end items-center">
+          <!-- <img class="" src="/asset/img/3d floor plan 3.png" alt="" srcset="" /> -->
+          <div class="hero-img w-full h-full"></div>
         </div>
-        <div
-          class="left-[144px] top-0 absolute text-stone-800 text-base font-normal font-['Transducer Test'] leading-7"
-        >
-        <a href="#">About</a>
-          
-        </div>
-        <div
-          class="left-[247px] top-0 absolute text-stone-800 text-base font-normal font-['Transducer Test'] leading-7"
-        >
-        <a href="#">Testimonials</a>
-          
-        </div>
-        <div
-          class="left-[407px] top-0 absolute text-stone-800 text-base font-normal font-['Transducer Test'] leading-7"
-        >
-        <a href="#">Projects</a>
-          
-        </div>
-      </div>
-    </div>
-
-    <!-- menu bar end  -->
-
-    <div
-      class="text-stone-800 text-[43.20px] font-normal font-['Transducer Test'] leading-[51.84px]"
-    >
-      Reliable Renovation<br />Service Provider.
-    </div>
-    <div
-      class="text-stone-800 text-lg font-normal font-['Transducer Test'] leading-7"
-    >
-      We are a renovation company that offers a wide range of <br />renovation
-      and interior design services. Our services are <br />commercial,
-      industrial and residential oriented.
-    </div>
-    <div class="w-[1920px] h-[702px] relative">
-      <div class="w-[1920px] h-[702px] left-0 top-0 absolute bg-zinc-300"></div>
-      <img
-        class="w-[1926px] h-[1037px] left-0 top-[703px] absolute opacity-25"
-        src="https://via.placeholder.com/1926x1037"
-      />
-    </div>
-    <div
-      class="w-[1920px] h-[702px] bg-gradient-to-l from-stone-200 to-stone-200"
-    ></div>
-    <div class="w-[1920px] h-[199px] bg-stone-200"></div>
-    <div class="w-[1920px] h-[0px] border border-stone-400"></div>
-    <img
-      class="w-[1197px] h-[702px]"
-      src="https://via.placeholder.com/1197x702"
-    />
-    <div
-      class="w-[307px] h-14 px-[47px] py-[18px] bg-orange-400 rounded-[161px] justify-start items-center gap-5 inline-flex"
-    >
-      <div
-        class="text-white text-sm font-medium font-['Transducer Test'] leading-tight tracking-tight"
-      >
-        Make a free quote
-      </div>
+      </section>
+      <!-- here ended the hero section  -->
     </div>
   </body>
 </html>
