@@ -15,6 +15,8 @@
 }
 
 
-.service{
-    
+.paintingBg{
+    background: url(../img/service_paint.png), lightgray 50% ;
+    background-repeat: no-repeat;
+    background-size: 110%;
 }
