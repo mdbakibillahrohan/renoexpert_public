@@ -1,4 +1,11 @@
+@font-face {
+  font-family: 'Transducer Test Oblique';
+  src: url("../fonts/TransducerTest-ExtendedRegular.otf") format("opentype");
+}
 
+*{
+  font-family: 'Transducer Test Extended';
+}
 
 /* .hero{
     height: calc(100%-5%);
@@ -64,3 +71,11 @@
 }
 
 /* video section css end */
+
+.service-item{
+  height: 28rem !important;
+}
+
+.services-slider{
+  background-image: url(../img/artboard.png);
+}

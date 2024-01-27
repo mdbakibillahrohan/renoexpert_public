@@ -13,6 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="asset/css/glider.min.css">
   </head>
 
   <body>
@@ -71,29 +72,35 @@
 
       <!-- here started the hero section  -->
       <section
-        class="hero bg-[#EEECE8] h-[calc(100vh-18.5rem)] min-h-[35rem] w-full flex border-b-[0.1rem] border-[#BEB8AE]"
+        class="hero h-[calc(100vh-18.5rem)] min-h-[35rem] border-[#BEB8AE] bg-[#EEECE8] w-full relative border-b-[0.1rem]"
       >
-        <div class="h-full w-[43%] flex justify-end items-center">
-          <div class="w-[37.6875rem] mr-6">
-            <h1 class="text-[2.7rem] leading-[3.24rem] text-[#291E18]">
-              Where Vision Meets Precision, Every Detail Matters.
-            </h1>
-            <p class="text-[1.125rem] my-12 text-[#291E18CC]">
-              At Renoexpert, we believe every home has a unique story to tell.
-              Our skilled team in Singapore specializes in turning your space
-              into a narrative of style, comfort, and innovation.
-            </p>
-            <a
-              class="bg-[#FF6D43] py-4 px-10 inline-block text-[#EEECE8] rounded-full cursor-pointer"
-              >Get a free quote
-              <i class="fa-solid fa-arrow-right-long ml-3"></i>
-            </a>
+      <div class="h-full sm:w-full md:w-[95%] lg:w-[90%] absolute right-0">
+        <div class="flex h-full w-full">
+          <div class="h-full w-[43%] flex justify-end items-center">
+            <div class="w-[37.6875rem] mr-6 ">
+              <h1 class="text-[2.7rem] leading-[3.24rem] text-[#291E18]">
+                Where Vision Meets Precision, Every Detail Matters.
+              </h1>
+              <p class="text-[1.125rem] my-12 text-[#291E18CC]">
+                At Renoexpert, we believe every home has a unique story to tell.
+                Our skilled team in Singapore specializes in turning your space
+                into a narrative of style, comfort, and innovation.
+              </p>
+              <a
+                class="bg-[#FF6D43] py-4 px-10 inline-block text-[#EEECE8] rounded-full cursor-pointer z-10"
+                >Get a free quote
+                <i class="fa-solid fa-arrow-right-long ml-3"></i>
+              </a>
+            </div>
+          </div>
+          <div class="h-full flex w-[57%] justify-end items-center overflow-visible">
+            <!-- <img class="" src="/asset/img/3d floor plan 3.png" alt="" srcset="" /> -->
+            <div class="hero-img w-full h-full"></div>
           </div>
         </div>
-        <div class="h-full w-[57%] flex justify-end items-center">
-          <!-- <img class="" src="/asset/img/3d floor plan 3.png" alt="" srcset="" /> -->
-          <div class="hero-img w-full h-full"></div>
-        </div>
+      </div>
+      
+        
       </section>
       <!-- here ended the hero section  -->
 
@@ -101,7 +108,7 @@
       <section
         class="h-[13.4rem] bg-[#EEECE8] p-10 flex items-center justify-center gap-20 border-b-[0.1rem] border-[#BEB8AE]"
       >
-        <div class="flex gap-24">
+        <div class="review-slider">
           <!-- layout 1 -->
           <div class="flex items-center justify-center gap-5">
             <img
@@ -272,8 +279,8 @@
 
       <!-- service section start  -->
       <section class="service bg-[#EEECE8] min-h-[35rem] w-full">
-        <div class="pt-[7.13rem] pl-[15.5rem] pb-[9rem]">
-          <div class="flex gap-9 items-center mb-[7.12rem] pl-[0.5rem]">
+        <div class="sm:w-full md:w-[95%] lg:w-[85%] mx-auto">
+          <div class="flex gap-9 items-center py-20">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="8"
@@ -290,11 +297,11 @@
             </h1>
           </div>
 
-          <div class="grid sm:grid-cols-1 md:grid-cols-2">
+          <div class="services-slider">
             <!-- here started the single service section  -->
-            <div class="w-[50rem] h-[28rem] relative">
-              <div class="w-3/4 h-full bg-white absolute">
-                <div class="flex mt-[5.5rem] justify-center">
+            <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
+              <div class="w-3/4 h-full bg-white">
+                <div class="flex mt-[5.5rem] justify-center items-center">
                   <div class="w-4/5">
                     <h1
                       class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
@@ -310,7 +317,7 @@
                       your unique style.
                     </p>
                     <a
-                      class="bg-[#FF6D43] py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
+                      class="bg-[#FF6D43] inline-block py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
                       >Learn More
                       <i
                         class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
@@ -319,7 +326,121 @@
                   </div>
                 </div>
               </div>
-              <div class="w-1/4 h-full absolute right-0">
+              <div class="w-1/4 h-full">
+                <img
+                  src="asset/img/service_paint.png"
+                  class="h-full"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+            <!-- single service section ended -->
+            <!-- here started the single service section  -->
+            <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
+              <div class="w-3/4 h-full bg-white">
+                <div class="flex mt-[5.5rem] justify-center items-center">
+                  <div class="w-4/5">
+                    <h1
+                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
+                    >
+                      Painting
+                    </h1>
+                    <p
+                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
+                    >
+                      From helping you choose the perfect color palette to
+                      executing precise brushwork, we bring life and vibrancy to
+                      your home's walls, creating an atmosphere that reflects
+                      your unique style.
+                    </p>
+                    <a
+                      class="bg-[#FF6D43] inline-block py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
+                      >Learn More
+                      <i
+                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/4 h-full">
+                <img
+                  src="asset/img/service_paint.png"
+                  class="h-full"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+            <!-- single service section ended -->
+            <!-- here started the single service section  -->
+            <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
+              <div class="w-3/4 h-full bg-white">
+                <div class="flex mt-[5.5rem] justify-center items-center">
+                  <div class="w-4/5">
+                    <h1
+                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
+                    >
+                      Painting
+                    </h1>
+                    <p
+                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
+                    >
+                      From helping you choose the perfect color palette to
+                      executing precise brushwork, we bring life and vibrancy to
+                      your home's walls, creating an atmosphere that reflects
+                      your unique style.
+                    </p>
+                    <a
+                      class="bg-[#FF6D43] inline-block py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
+                      >Learn More
+                      <i
+                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/4 h-full">
+                <img
+                  src="asset/img/service_paint.png"
+                  class="h-full"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+            <!-- single service section ended -->
+            <!-- here started the single service section  -->
+            <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
+              <div class="w-3/4 h-full bg-white">
+                <div class="flex mt-[5.5rem] justify-center items-center">
+                  <div class="w-4/5">
+                    <h1
+                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
+                    >
+                      Painting
+                    </h1>
+                    <p
+                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
+                    >
+                      From helping you choose the perfect color palette to
+                      executing precise brushwork, we bring life and vibrancy to
+                      your home's walls, creating an atmosphere that reflects
+                      your unique style.
+                    </p>
+                    <a
+                      class="bg-[#FF6D43] inline-block py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
+                      >Learn More
+                      <i
+                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/4 h-full">
                 <img
                   src="asset/img/service_paint.png"
                   class="h-full"
@@ -330,202 +451,14 @@
             </div>
             <!-- single service section ended -->
 
-            <!-- here started the single service section  -->
-            <div class="w-[50rem] h-[28rem] relative">
-              <div class="w-3/4 h-full bg-white absolute">
-                <div class="flex mt-[5.5rem] justify-center">
-                  <div class="w-4/5">
-                    <h1
-                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
-                    >
-                      Demolition
-                    </h1>
-                    <p
-                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
-                    >
-                      Our demolition services clear the path for your vision,
-                      ensuring a meticulous process that paves the way for the
-                      transformation of your space.
-                    </p>
-                    <a
-                      class="bg-[#FF6D43] py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
-                      >Learn More
-                      <i
-                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/4 h-full absolute right-0">
-                <img
-                  src="asset/img/service_demolition.png"
-                  class="h-full"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div>
-            <!-- single service section ended -->
-
-            <!-- here started the single service section  -->
-            <div class="w-[50rem] h-[28rem] relative">
-              <div class="w-3/4 h-full bg-white absolute">
-                <div class="flex mt-[5.5rem] justify-center">
-                  <div class="w-4/5">
-                    <h1
-                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
-                    >
-                      Masonry
-                    </h1>
-                    <p
-                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
-                    >
-                      Our skilled artisans combine expertise with creativity,
-                      bringing solid foundations and artful creations to your
-                      home.
-                    </p>
-                    <a
-                      class="bg-[#FF6D43] py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
-                      >Learn More
-                      <i
-                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/4 h-full absolute right-0">
-                <img
-                  src="asset/img/service_masonry.png"
-                  class="h-full"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div>
-            <!-- single service section ended -->
-
-            <!-- here started the single service section  -->
-            <!-- <div class="w-[50rem] h-[28rem] relative">
-              <div class="w-3/4 h-full bg-white absolute">
-                <div class="flex mt-[5.5rem] justify-center">
-                  <div class="w-4/5">
-                    <h1
-                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
-                    >
-                      Flooring
-                    </h1>
-                    <p
-                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
-                    >
-                      our experts guide you through a range of materials and
-                      styles, ensuring a floor that not only meets your needs
-                      but exceeds your expectations.
-                    </p>
-                    <a
-                      class="bg-[#FF6D43] py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
-                      >Learn More
-                      <i
-                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/4 h-full absolute right-0">
-                <img
-                  src="asset/img/service_flooring.png"
-                  class="h-full"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div> -->
-            <!-- single service section ended -->
-
-            <!-- here started the single service section  -->
-            <!-- <div class="w-[50rem] h-[28rem] relative">
-              <div class="w-3/4 h-full bg-white absolute">
-                <div class="flex mt-[5.5rem] justify-center">
-                  <div class="w-4/5">
-                    <h1
-                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
-                    >
-                      Wall Partition & Ceiling
-                    </h1>
-                    <p
-                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
-                    >
-                      We create functional and aesthetic spaces, crafting walls
-                      and ceilings that enhance the overall beauty and
-                      functionality of your home.
-                    </p>
-                    <a
-                      class="bg-[#FF6D43] py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
-                      >Learn More
-                      <i
-                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/4 h-full absolute right-0">
-                <img
-                  src="asset/img/service_wall_partition.png"
-                  class="h-full"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div> -->
-            <!-- single service section ended -->
-
-            <!-- here started the single service section  -->
-            <!-- <div class="w-[50rem] h-[28rem] relative">
-              <div class="w-3/4 h-full bg-white absolute">
-                <div class="flex mt-[5.5rem] justify-center">
-                  <div class="w-4/5">
-                    <h1
-                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
-                    >
-                      Electrical and Plumbing
-                    </h1>
-                    <p
-                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
-                    >
-                      Our experts handle the technical aspects with precision,
-                      delivering power and flow that align with the design and
-                      functionality of your home.
-                    </p>
-                    <a
-                      class="bg-[#FF6D43] py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
-                      >Learn More
-                      <i
-                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/4 h-full absolute right-0">
-                <img
-                  src="asset/img/service_electrical.png"
-                  class="h-full"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div> -->
-            <!-- single service section ended -->
+           
           </div>
         </div>
       </section>
       <!-- service section end -->
 
       <!-- reno work section start  -->
-      <section class="renoWork bg-[#EEECE8] min-h-[35rem] w-full">
+      <section class="renoWork bg-[#EEECE8] min-h-[35rem] w-full py-12">
         <div class="pb-52">
           <div class="mb-20">
             <h1
@@ -642,7 +575,8 @@
     </div>
 
     <!-- javascript file link  -->
-
+    <script src="./asset/js/glider.js"></script>
     <script src="./asset/js/script.js"></script>
+    <script src="./asset/js/slider.js"></script>
   </body>
 </html>
