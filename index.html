@@ -1,1039 +1,735 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/asset/css/style.css" />
-    <title>Reno Expert</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="asset/css/glider.min.css" />
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <!-- header start  -->
-      <header
-        class="header_wrapper w-full box-border bg-[#EEECE8] px-6 border-b-[0.1rem] border-[#BEB8AE]"
-      >
-        <nav class="flex justify-between w-full h-20 items-center">
-          <div class="logo">
-            <a href="#">
-              <img src="./asset/img/reno_logo.png" alt="Reno Expert" />
-            </a>
-          </div>
-          <div class="">
-            <ul class="flex gap-6">
-              <li class="cursor-pointer service">
-                <a class="text-[#291E18] text-lg" href="#"
-                  >Services
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="6"
-                    viewBox="0 0 10 6"
-                    fill="none"
-                    class="inline ml-1"
-                  >
-                    <path
-                      d="M5 6L0.669873 1.38009e-07L9.33013 8.95112e-07L5 6Z"
-                      fill="#FF6D43"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li class="cursor-pointer">
-                <a class="text-[#291E18] text-lg" href="#">About</a>
-              </li>
-              <li class="cursor-pointer">
-                <a class="text-[#291E18] text-lg" href="#">Testimonial</a>
-              </li>
-              <li class="cursor-pointer">
-                <a class="text-[#291E18] text-lg" href="#">Products</a>
-              </li>
-            </ul>
-          </div>
-          <div class="">
-            <a
-              class="bg-[#FF6D43] py-4 px-10 text-[#EEECE8] rounded-full cursor-pointer"
-              >Get a free quote
-              <i class="fa-solid fa-arrow-right-long ml-3"></i>
-            </a>
-          </div>
-        </nav>
-      </header>
-      <!-- header ends -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/asset/css/style.css" />
+  <title>Reno Expert</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="asset/css/glider.min.css" />
+</head>
 
-      <!-- here started the hero section  -->
-      <section
-        class="hero h-[calc(100vh-18.5rem)] min-h-[35rem] border-[#BEB8AE] bg-[#EEECE8] w-full relative border-b-[0.1rem]"
-      >
-        <div class="h-full sm:w-full md:w-[95%] lg:w-[90%] absolute right-0">
-          <div class="flex h-full w-full">
-            <div class="h-full w-[43%] flex justify-end items-center">
-              <div class="w-[37.6875rem] mr-6">
-                <h1 class="text-[2.7rem] leading-[3.24rem] text-[#291E18]">
-                  Where Vision Meets Precision, Every Detail Matters.
-                </h1>
-                <p class="text-[1.125rem] my-12 text-[#291E18CC]">
-                  At Renoexpert, we believe every home has a unique story to
-                  tell. Our skilled team in Singapore specializes in turning
-                  your space into a narrative of style, comfort, and innovation.
-                </p>
-                <a
-                  class="bg-[#FF6D43] py-4 px-10 inline-block text-[#EEECE8] rounded-full cursor-pointer z-10"
-                  >Make a free quote
-                  <i class="fa-solid fa-arrow-right-long ml-3"></i>
-                </a>
-              </div>
-            </div>
-            <div
-              class="h-full flex w-[57%] justify-end items-center overflow-visible"
-            >
-              <!-- <img class="" src="/asset/img/3d floor plan 3.png" alt="" srcset="" /> -->
-              <div class="hero-img w-full h-full"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- here ended the hero section  -->
-
-      <!-- review section start -->
-      <section
-        class="h-[13.4rem] bg-[#EEECE8] p-10 flex items-center justify-center gap-20 border-b-[0.1rem] border-[#BEB8AE]"
-      >
-        <div class="review-slider">
-          <!-- layout 1 -->
-          <div class="flex items-center justify-center gap-5">
-            <img
-              class="w-[5.75rem] h-[5.75rem]"
-              src="./asset/img/review_img1.png"
-              alt="person img"
-            />
-            <div>
-              <h3
-                class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize"
-              >
-                Sarah Wyne
-              </h3>
-              <div class="flex gap-1 items-center justify-center">
-                <h4
-                  class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize"
-                >
-                  5.0
-                </h4>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-              </div>
-              <p
-                class="text-[#787878] text-xs not-italic font-normal leading-5 tracking-[0.0175rem] capitalize"
-              >
-                10 Feb, 2023
-              </p>
-            </div>
-          </div>
-
-          <!-- layout 2 -->
-          <div class="flex items-center justify-center gap-5">
-            <img
-              class="w-[5.75rem] h-[5.75rem]"
-              src="./asset/img/review_img2.png"
-              alt="person img"
-            />
-            <div>
-              <h3
-                class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize"
-              >
-                Sarah Wyne
-              </h3>
-              <div class="flex gap-1 items-center justify-center">
-                <h4
-                  class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize"
-                >
-                  5.0
-                </h4>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-              </div>
-              <p
-                class="text-[#787878] text-xs not-italic font-normal leading-5 tracking-[0.0175rem] capitalize"
-              >
-                10 Feb, 2023
-              </p>
-            </div>
-          </div>
-
-          <!-- layout 3 -->
-          <div class="flex items-center justify-center gap-5">
-            <img
-              class="w-[5.75rem] h-[5.75rem]"
-              src="./asset/img/review_img3.png"
-              alt="person img"
-            />
-            <div>
-              <h3
-                class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize"
-              >
-                Sarah Wyne
-              </h3>
-              <div class="flex gap-1 items-center justify-center">
-                <h4
-                  class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize"
-                >
-                  5.0
-                </h4>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-              </div>
-              <p
-                class="text-[#787878] text-xs not-italic font-normal leading-5 tracking-[0.0175rem] capitalize"
-              >
-                10 Feb, 2023
-              </p>
-            </div>
-          </div>
-
-          <!-- layout 4 -->
-          <div class="flex items-center justify-center gap-5">
-            <img
-              class="w-[5.75rem] h-[5.75rem]"
-              src="./asset/img/review_img4.png"
-              alt="person img"
-            />
-            <div>
-              <h3
-                class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize"
-              >
-                Sarah Wyne
-              </h3>
-              <div class="flex gap-1 items-center justify-center">
-                <h4
-                  class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize"
-                >
-                  5.0
-                </h4>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-              </div>
-              <p
-                class="text-[#787878] text-xs not-italic font-normal leading-5 tracking-[0.0175rem] capitalize"
-              >
-                10 Feb, 2023
-              </p>
-            </div>
-          </div>
-
-          <!-- layout 5 -->
-          <div class="flex items-center justify-center gap-5">
-            <img
-              class="w-[5.75rem] h-[5.75rem]"
-              src="./asset/img/review_img5.png"
-              alt="person img"
-            />
-            <div>
-              <h3
-                class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize"
-              >
-                Sarah Wyne
-              </h3>
-              <div class="flex gap-1 items-center justify-center">
-                <h4
-                  class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize"
-                >
-                  5.0
-                </h4>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-              </div>
-              <p
-                class="text-[#787878] text-xs not-italic font-normal leading-5 tracking-[0.0175rem] capitalize"
-              >
-                10 Feb, 2023
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- review section end -->
-
-      <!-- service section start  -->
-      <section class="service bg-[#EEECE8] min-h-[35rem] w-full">
-        <div class="sm:w-full md:w-[95%] lg:w-[85%] mx-auto">
-          <div class="flex gap-9 items-center py-20">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="8"
-              height="8"
-              viewBox="0 0 8 8"
-              fill="none"
-            >
-              <circle cx="4" cy="4" r="4" fill="#FF6D43" />
-            </svg>
-            <h1
-              class="text-[#291E18] text-center not-italic text-[2.6875rem] font-normal leading-10"
-            >
-              Our Services
-            </h1>
-          </div>
-
-          <div class="services-slider">
-            <!-- here started the single service section  -->
-            <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
-              <div class="w-3/4 h-full bg-white">
-                <div class="flex mt-[5.5rem] justify-center items-center">
-                  <div class="w-4/5">
-                    <h1
-                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
-                    >
-                      Painting
-                    </h1>
-                    <p
-                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
-                    >
-                      From helping you choose the perfect color palette to
-                      executing precise brushwork, we bring life and vibrancy to
-                      your home's walls, creating an atmosphere that reflects
-                      your unique style.
-                    </p>
-                    <a
-                      class="bg-[#FF6D43] inline-block py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
-                      >Learn More
-                      <i
-                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/4 h-full">
-                <img
-                  src="asset/img/service_paint.png"
-                  class="h-full"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div>
-            <!-- single service section ended -->
-            <!-- here started the single service section  -->
-            <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
-              <div class="w-3/4 h-full bg-white">
-                <div class="flex mt-[5.5rem] justify-center items-center">
-                  <div class="w-4/5">
-                    <h1
-                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
-                    >
-                      Painting
-                    </h1>
-                    <p
-                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
-                    >
-                      From helping you choose the perfect color palette to
-                      executing precise brushwork, we bring life and vibrancy to
-                      your home's walls, creating an atmosphere that reflects
-                      your unique style.
-                    </p>
-                    <a
-                      class="bg-[#FF6D43] inline-block py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
-                      >Learn More
-                      <i
-                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/4 h-full">
-                <img
-                  src="asset/img/service_paint.png"
-                  class="h-full"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div>
-            <!-- single service section ended -->
-            <!-- here started the single service section  -->
-            <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
-              <div class="w-3/4 h-full bg-white">
-                <div class="flex mt-[5.5rem] justify-center items-center">
-                  <div class="w-4/5">
-                    <h1
-                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
-                    >
-                      Painting
-                    </h1>
-                    <p
-                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
-                    >
-                      From helping you choose the perfect color palette to
-                      executing precise brushwork, we bring life and vibrancy to
-                      your home's walls, creating an atmosphere that reflects
-                      your unique style.
-                    </p>
-                    <a
-                      class="bg-[#FF6D43] inline-block py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
-                      >Learn More
-                      <i
-                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/4 h-full">
-                <img
-                  src="asset/img/service_paint.png"
-                  class="h-full"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div>
-            <!-- single service section ended -->
-            <!-- here started the single service section  -->
-            <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
-              <div class="w-3/4 h-full bg-white">
-                <div class="flex mt-[5.5rem] justify-center items-center">
-                  <div class="w-4/5">
-                    <h1
-                      class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]"
-                    >
-                      Painting
-                    </h1>
-                    <p
-                      class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]"
-                    >
-                      From helping you choose the perfect color palette to
-                      executing precise brushwork, we bring life and vibrancy to
-                      your home's walls, creating an atmosphere that reflects
-                      your unique style.
-                    </p>
-                    <a
-                      class="bg-[#FF6D43] inline-block py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]"
-                      >Learn More
-                      <i
-                        class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/4 h-full">
-                <img
-                  src="asset/img/service_paint.png"
-                  class="h-full"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div>
-            <!-- single service section ended -->
-          </div>
-        </div>
-      </section>
-      <!-- service section end -->
-
-      <!-- reno work section start  -->
-      <section class="renoWork bg-[#EEECE8] min-h-[35rem] w-full py-12">
-        <div class="pb-52">
-          <div class="mb-20">
-            <h1
-              class="text-gray-900 text-center not-italic font-normal leading-10 text-[2.75rem] mb-7"
-            >
-              See how we work
-            </h1>
-            <p
-              class="text-gray-900 text-center text-base not-italic font-normal leading-6 w-[53rem] m-auto opacity-70 px-20"
-            >
-              Our seasoned team of professionals brings years of expertise to
-              every project. From conceptualization to execution.
-            </p>
-          </div>
-          <!-- video section start  -->
-          <div class="videoReno w-[76.0625rem] h-[35.4375rem] m-auto bg-black">
-            <img id="logo2" src="./asset/img/reno_logo_2.png" alt="logo" />
-            <div class="play">
-              <svg
-                id="ellipsImg"
-                xmlns="http://www.w3.org/2000/svg"
-                width="94"
-                height="93"
-                viewBox="0 0 94 93"
-                fill="none"
-              >
-                <g filter="url(#filter0_b_315_142)">
-                  <circle cx="47" cy="46.5" r="46.5" fill="white" />
-                </g>
-                <defs>
-                  <filter
-                    id="filter0_b_315_142"
-                    x="-5.5"
-                    y="-6"
-                    width="105"
-                    height="105"
-                    filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
-                  >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="3" />
-                    <feComposite
-                      in2="SourceAlpha"
-                      operator="in"
-                      result="effect1_backgroundBlur_315_142"
-                    />
-                    <feBlend
-                      mode="normal"
-                      in="SourceGraphic"
-                      in2="effect1_backgroundBlur_315_142"
-                      result="shape"
-                    />
-                  </filter>
-                </defs>
-              </svg>
-              <svg
-                id="pollyImg"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="18"
-                viewBox="0 0 16 18"
-                fill="none"
-              >
-                <path
-                  d="M15.5 9L0.499999 17.6603L0.5 0.339745L15.5 9Z"
-                  fill="#FF6D43"
-                />
-              </svg>
-            </div>
-
-            <video
-              poster="#000"
-              src="./asset/video/Construction_promo_video.mp4"
-            ></video>
-          </div>
-          <!-- video section end  -->
-        </div>
-      </section>
-      <!-- reno work section end  -->
-
-      <!-- free quote section start here  -->
-      <section class="grid md:grid-cols-2 mb-20">
-        <div class="flex justify-center items-center">
-          <div class="bg-[#fff] w-3/4 flex flex-col gap-20">
-            <h1
-              class="text-gray-900 text-5xl not-italic font-normal leading-10"
-            >
-              Request Your Free Reno Quote!
-            </h1>
-            <p class="text-gray-900 text-lg not-italic font-normal leading-7">
-              Take the first step towards transforming your space by requesting
-              a free, no-obligation renovation quote. Simply fill out the form
-              below, and let's start the conversation.
-            </p>
-            <div class="flex gap-2">
-              <a
-                class="bg-[#FF6D43] py-4 px-10 inline-block text-[#EEECE8] rounded-full cursor-pointer"
-                >Get a free quote
-                <i class="fa-solid fa-arrow-right-long ml-3"></i>
-              </a>
-              <a
-                class="py-4 px-10 inline-block tracking-wide rounded-full cursor-pointer text-gray-900 text-sm not-italic font-normal leading-5 border-[0.03rem] border-[#BEB8AE]"
-                >Contact Us
-                <i class="fa-solid fa-arrow-right-long ml-3"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="bg-[#C6E4EE] flex justify-center items-center pt-10">
-          <img src="./asset/img/MDL 1.png" alt="man image" />
-        </div>
-      </section>
-      <!-- free quote section end here  -->
-
-      <!-- testimonial section start here  -->
-      <section
-        class="bg-[#EEECE8] min-h-[35rem] w-full py-12 flex flex-row justify-center items-center gap-10"
-      >
-        <div class="leftSide">
-          <div class="flex gap-9 items-center py-20 mb-[3.19rem]">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="8"
-              height="8"
-              viewBox="0 0 8 8"
-              fill="none"
-            >
-              <circle cx="4" cy="4" r="4" fill="#FF6D43" />
-            </svg>
-            <h1
-              class="text-[#291E18] text-center not-italic text-[2.7rem] font-normal leading-10"
-            >
-              Testimonials
-            </h1>
-          </div>
-          <p
-            class="text-[#291E18] text-base not-italic font-normal leading-6 mb-[12rem] w-[33rem]"
-          >
-            Discover the stories of satisfaction and joy from our valued
-            clients. Their experiences with Renoexpert go beyond renovations.
-          </p>
-
-          <div class="flex gap-8">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="88"
-              height="88"
-              viewBox="0 0 88 88"
-              fill="none"
-              class="cursor-pointer"
-            >
-              <rect
-                width="88"
-                height="88"
-                rx="44"
-                transform="matrix(-1 0 0 1 88 0)"
-                fill="white"
-              />
-              <path
-                d="M41.5 43.525V41L37 44.03L41.5 47.06V44.535H50V43.525H41.5Z"
-                fill="#291E18"
-              />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="88"
-              height="88"
-              viewBox="0 0 88 88"
-              fill="none"
-              class="cursor-pointer"
-            >
-              <rect width="88" height="88" rx="44" fill="white" />
-              <path
-                d="M46.5 43.525V41L51 44.03L46.5 47.06V44.535H38V43.525H46.5Z"
-                fill="#291E18"
-              />
-            </svg>
-          </div>
-        </div>
-        <div class="rightSide">
-          <div
-            class="w-[47.5rem] h-[31rem] bg-white p-20 flex flex-col gap-24"
-            id="bg_right"
-          >
-            <img id="coma" src="./asset/img/appostopic_coma.png" alt="coma" />
-            <div class="flex flex-col gap-8">
-              <div class="star_icon flex gap-2">
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-                <i class="fa-solid fa-star text-[#FF6D43]"></i>
-              </div>
-              <p
-                class="text-xl font-normal leading-7 tracking-normal text-left text-[#291E18]"
-              >
-                Thank you Araf and team for completing painting of my kids
-                bedroom including feature walls and master bedroom within 2
-                days. They were super efficient and responsive. Pure dedication
-                and quick response to confirm paint and design works. They were
-                willing to do.....<span class="text-[#FF6D43] cursor-pointer"
-                  >read more</span
-                >
-              </p>
-            </div>
-            <div class="">
-              <img class="" src="./asset/img/reviewer_img.png" alt="person" />
-              <p class="text-[#291E18] mt-4">Avelina Ho 7 January 2023</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- testimonial section end here  -->
-
-      <!-- renovate your home start  -->
-      <section class="bg-black p-6 h-[35rem] flex justify-center items-center">
-        <div class="flex flex-col gap-3 justify-center items-center m-4">
-          <h1
-            class="text-white text-6xl font-normal tracking-normal text-left leading-[77px]"
-          >
-            Ready to renovate your home?
-          </h1>
-          <p
-            class="text-white text-lg font-normal leading-5 tracking-normal text-center"
-          >
-            Drop us a line to discuss how Renoexpert can help you to organize
-            your dream Home.
-          </p>
-          <a
-            class="bg-[#FF6D43] mt-6 py-4 px-10 inline-block text-[#EEECE8] rounded-full cursor-pointer z-10"
-            >Make a free quote
-            <i class="fa-solid fa-arrow-right-long ml-3"></i>
+<body>
+  <div class="wrapper">
+    <!-- header start  -->
+    <header class="header_wrapper w-full box-border bg-[#EEECE8] px-6 border-b-[0.1rem] border-[#BEB8AE]">
+      <nav class="flex justify-between w-full h-20 items-center">
+        <div class="logo">
+          <a href="#">
+            <img src="./asset/img/reno_logo.png" alt="Reno Expert" />
           </a>
         </div>
-      </section>
-      <!-- renovate your home end -->
-
-      <!-- why choose section start  -->
-      <section class="bg-white min-h-[50rem] w-auto flex flex-col pt-28">
-        <div class="flex flex-col justify-center items-center gap-6 mb-32">
-          <h1
-            class="text-5xl font-normal tracking-normal text-center leading-[52px] text-[#291E18]"
-          >
-            Why Choose <span class="text-[#FF6D43]">Renoexpert</span>?
-          </h1>
-          <p class="text-[#291E18] opacity-[80%] w-[60rem] text-center mt-4">
-            At Renoexpert, we understand that choosing a partner for your home
-            renovation is a significant decision. Our commitment goes beyond
-            craftsmanship—we offer a unique blend of expertise, dedication, and
-            personalized service. Here's why countless homeowners in Singapore
-            choose us as their trusted renovation partner.
-          </p>
-        </div>
-        <div class="flex m-auto items-center text-center gap-32">
-          <div class="l-side flex flex-col gap-16">
-            <!-- div 1 -->
-            <div class="flex gap-9 justify-center items-center">
-              <div
-                class="h-[9rem] w-[9rem] bg-[#c6e4ee] flex justify-center items-center"
-              >
-                <img src="./asset/img/team.png" alt="team" />
-              </div>
-              <div>
-                <h3
-                  class="text-3xl font-normal leading-9 tracking-normal text-left choose_head_text"
-                >
-                  Expert Team
-                </h3>
-                <span
-                  class="w-[9rem] h-[0.125rem] bg-[#FF6D43] choose_head_border"
-                ></span>
-                <p
-                  class="text-base font-normal leading-6 tracking-normal text-left w-[25rem]"
-                >
-                  Our team comprises seasoned professionals with a wealth of
-                  experience. From skilled craftsmen to creative designers.
-                </p>
-              </div>
-            </div>
-            <!-- div 1 -->
-            <!-- div 2 -->
-            <div class="flex gap-9 justify-center items-center">
-              <div
-                class="h-[9rem] w-[9rem] bg-[#c6e4ee] flex justify-center items-center"
-              >
-                <img src="./asset/img/dollar.png" alt="team" />
-              </div>
-              <div>
-                <h3
-                  class="text-3xl font-normal leading-9 tracking-normal text-left choose_head_text"
-                >
-                  Budget-Friendly Solutions
-                </h3>
-                <span
-                  class="w-[9rem] h-[0.125rem] bg-[#FF6D43] choose_head_border"
-                ></span>
-                <p
-                  class="text-base font-normal leading-6 tracking-normal text-left w-[25rem]"
-                >
-                  we understand the importance of staying within budget without
-                  sacrificing quality. Our commitment to budget-friendly
-                  solutions ensures that your dream home remains both
-                  spectacular and financially sensible
-                </p>
-              </div>
-            </div>
-            <!-- div 2 -->
-            <!-- div 3 -->
-            <div class="flex gap-9 justify-center items-center">
-              <div
-                class="h-[9rem] w-[9rem] bg-[#c6e4ee] flex justify-center items-center"
-              >
-                <img src="./asset/img/clock_time.png" alt="team" />
-              </div>
-              <div>
-                <h3
-                  class="text-3xl font-normal leading-9 tracking-normal text-left choose_head_text"
-                >
-                  Timely Delivery
-                </h3>
-                <span
-                  class="w-[9rem] h-[0.125rem] bg-[#FF6D43] choose_head_border"
-                ></span>
-                <p
-                  class="text-base font-normal leading-6 tracking-normal text-left w-[25rem]"
-                >
-                  We value your time as much as you do. With Renoexpert, expect
-                  not just a beautifully renovated space, but also timely
-                  project delivery.
-                </p>
-              </div>
-            </div>
-            <!-- div 3 -->
-          </div>
-          <div class="r-side bg-[#c6e4ee] flex justify-center items-center">
-            <img
-              class="px-32 pt-24"
-              src="./asset/img/man_image.png"
-              alt="man image"
-            />
-          </div>
-        </div>
-      </section>
-      <!-- why choose section end -->
-
-      <!-- blog section start  -->
-      <section class="bg-black flex gap-16 justify-center py-40">
-        <div>
-          <div class="flex gap-9 mb-[3.19rem] justify-center">
-            <span class="pt-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="8"
-                height="8"
-                viewBox="0 0 8 8"
-                fill="none"
-              >
-                <circle cx="4" cy="4" r="4" fill="#FF6D43" />
-              </svg>
-            </span>
-            <h1
-              class="text-[#EEECE8] text-left not-italic text-[2.7rem] font-normal leading-[52px]"
-            >
-              Explore Our <br />
-              <span class="text-[#FF6D43]">Renovation Blogs</span>
-            </h1>
-          </div>
-          <p
-            class="text-[#EEECE8] w-[36rem] text-base font-normal leading-6 tracking-normal text-left mb-[3.19rem]"
-          >
-            Dive into the world of design, innovation, and home transformation
-            with our curated blog.
-          </p>
-          <a
-            class="border-[0.01px] border-white py-4 px-10 inline-block text-[#EEECE8] rounded-full cursor-pointer z-10"
-            >SEE ALL
-            <i class="fa-solid fa-arrow-right-long ml-3"></i>
-          </a>
-        </div>
-        <div>
-          <div
-            class="flex gap-11 justify-center items-center border-b-[0.1px] border-[#BEB8AE] pb-20"
-          >
-            <img src="./asset/img/blog_img1.png" alt="blog image" />
-            <div class="flex flex-col gap-5">
-              <h3
-                class="text-3xl font-normal leading-8 tracking-normal text-left text-white"
-              >
-                Creative Ideas for Small Spaces
-              </h3>
-              <p
-                class="text-sm font-normal leading-5 tracking-normal text-left text-[#EEECE8] w-[22.6rem]"
-              >
-                Discover innovative ways to maximize space without compromising
-                on style.
-              </p>
-              <div class="flex items-center gap-4">
-                <img
-                  src="./asset/img/date_pointer_bg.png"
-                  alt="date_pointer_bg"
-                />
-                <p
-                  class="text-xs font-normal leading-4 tracking-normal text-left text-[#EEECE8]"
-                >
-                  7 January 2023
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- =================================================== -->
-          <div class="flex gap-11 justify-center items-center pt-20">
-            <img src="./asset/img/blog_img2.png" alt="blog image" />
-            <div class="flex flex-col gap-5">
-              <h3
-                class="text-3xl font-normal leading-8 tracking-normal text-left text-white"
-              >
-                The Colors Shaping Home Interiors in 2024
-              </h3>
-              <p
-                class="text-sm font-normal leading-5 tracking-normal text-left text-[#EEECE8] w-[22.6rem]"
-              >
-                Stay ahead of the curve with a glimpse into the hues and
-                palettes that are making waves in interior design this year.
-              </p>
-              <div class="flex items-center gap-4">
-                <img
-                  src="./asset/img/date_pointer_bg.png"
-                  alt="date_pointer_bg"
-                />
-                <p
-                  class="text-xs font-normal leading-4 tracking-normal text-left text-[#EEECE8]"
-                >
-                  24 December 2023
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- blog section end -->
-
-      <!-- contact us section start  -->
-      <section class="bg-white">
-        <div>
-          <div class="flex gap-9 mb-[3.19rem] justify-start items-center">
-            <img src="./asset/img/email_contact.png" alt="email_icon" />
-            <span class="pt-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="8"
-                height="8"
-                viewBox="0 0 8 8"
-                fill="none"
-              >
-                <circle cx="4" cy="4" r="4" fill="#FF6D43" />
-              </svg>
-            </span>
-            <h1
-              class="text-[#291E18] text-left not-italic text-[2.7rem] font-normal leading-[52px]"
-            >
-              Contact us
-            </h1>
-          </div>
-          <p
-            class="text-[#291E18] w-[36rem] text-base font-normal leading-6 tracking-normal text-left mb-[3.19rem]"
-          >
-            We will call you back within 30 minutes.
-          </p>
-        </div>
-        <div></div>
-      </section>
-      <!-- contact us section end -->
-
-      <!-- footer section start  -->
-      <footer class="bg-black w-full box-border  pt-16">
-        <div class="grid grid-cols-4 gap-y-20 lg:w-[85%] md:w-[95%] mx-auto">
-          <div class="col-span-2 h-20">
-            <img src="/asset/img/l-mark-1.png" alt="logo">
-          </div>
-          <div class="col-span-2 h-20">
-            <div class="w-full flex justify-end">
-              <img src="/asset/icons/facebook-icon.png" alt="">
-              <img class="mx-6" src="/asset/icons/whatsapp-icon.png" alt="">
-              <img src="/asset/icons/linkedin-icon.png" alt="">
-            </div>
-          </div>
-          <div class=" col-span-1 ">
-            <div>
-              <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Home</a>
-              <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">About</a>
-              <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Our Accreditation</a>
-              <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Testimonial</a>
-              <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Contact Us</a>
-            </div>
-          </div>
-          <div class="col-span-2">
-            <div>
-              <div class="flex gap-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="8"
-                  height="8"
-                  viewBox="0 0 8 8"
-                  fill="none"
-                >
-                  <circle cx="4" cy="4" r="4" fill="#FF6D43" />
+        <div class="">
+          <ul class="flex gap-6">
+            <li class="cursor-pointer service">
+              <a class="text-[#291E18] text-lg" href="#">Services
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                  class="inline ml-1">
+                  <path d="M5 6L0.669873 1.38009e-07L9.33013 8.95112e-07L5 6Z" fill="#FF6D43" />
                 </svg>
-                <span
-                  class="text-[#EEECE8] text-[0.87rem] text-center not-italic font-normal leading-7"
-                >
-                  Services
-                </span>
-              </div>
-              <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Painting</a>
-              <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Electrical</a>
-              <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Wall/Floring</a>
-              <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Plumbing</a>
-            </div>
-          </div>
-          <div class="col-span-1">
-            <div class="flex justify-center items-end flex-col h-full">
-
-              <div class="flex items-center border w-64 justify-center py-4 rounded-full cursor-pointer mb-8">
-                <img src="/asset/icons/phone-icon.png" alt="">
-                <span class="text-[#EEECE8] ml-3">677 644 9115 8246</span>
-              </div>
-
-              <p class="w-[24.938rem] text-[#EEECE8] text-right">
-                M-space, 6D Mandai Estate#03-12, Singapore 729938(Office/Showroom/Workshop)
-              </p>
-            </div>
-          </div>
-
+              </a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="text-[#291E18] text-lg" href="#">About</a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="text-[#291E18] text-lg" href="#">Testimonial</a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="text-[#291E18] text-lg" href="#">Products</a>
+            </li>
+          </ul>
         </div>
-        <div class="w-full bg-[#D9D9D9] h-[0.004rem] mt-20 mb-10"></div>
-        <div class="grid grid-cols-4 lg:w-[85%] md:w-[95%] mx-auto pt-10 pb-20">
-          <div class="col-span-1">
-            <div class="flex gap-2 items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="8"
-                height="8"
-                viewBox="0 0 8 8"
-                fill="none"
-              >
-                <circle cx="4" cy="4" r="4" fill="#FF6D43" />
-              </svg>
-              <a
-                class="text-[#EEECE8] text-[0.87rem] text-center not-italic font-normal leading-7"
-              >
-              Renoexpert.com.sg @ 2024
+        <div class="w-[18.5rem]">
+          <a class="bg-[#FF6D43] py-4 px-10 text-[#EEECE8] rounded-full cursor-pointer stretch-btn">
+            <span>Get a free quote</span>
+            <div class="stretch-arrow ml-2 bg-white inline-block mb-[0.2rem]"></div>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- header ends -->
+
+    <!-- here started the hero section  -->
+    <section
+      class="hero h-[calc(100vh-18.5rem)] min-h-[35rem] border-[#BEB8AE] bg-[#EEECE8] w-full relative border-b-[0.1rem]">
+      <div class="h-full sm:w-full md:w-[95%] lg:w-[90%] absolute right-0">
+        <div class="flex h-full w-full">
+          <div class="h-full w-[43%] flex justify-end items-center">
+            <div class="w-[37.6875rem] mr-6">
+              <h1 class="text-[2.7rem] leading-[3.24rem] text-[#291E18]">
+                Where Vision Meets Precision, Every Detail Matters.
+              </h1>
+              <p class="text-[1.125rem] my-12 text-[#291E18CC]">
+                At Renoexpert, we believe every home has a unique story to
+                tell. Our skilled team in Singapore specializes in turning
+                your space into a narrative of style, comfort, and innovation.
+              </p>
+              <a class="bg-[#FF6D43] py-4 px-10 inline-block text-[#EEECE8] rounded-full cursor-pointer z-10">Make a
+                free quote
+                <i class="fa-solid fa-arrow-right-long ml-3"></i>
               </a>
             </div>
           </div>
-          <div class="col-span-2">
-            <span
-                class="text-[#EEECE8] text-[0.87rem] text-center not-italic font-normal leading-7"
-              >
-              All rights reserved
-              </span>
+          <div class="h-full flex w-[57%] justify-end items-center overflow-visible">
+            <!-- <img class="" src="/asset/img/3d floor plan 3.png" alt="" srcset="" /> -->
+            <div class="hero-img w-full h-full"></div>
           </div>
-          <div class="col-span-1 text-right">
-            <span
-                class="text-[#EEECE8] text-[0.87rem] not-italic font-normal leading-7"
-              >
-              Privacy & policy
-            </span>
-          </div>
-          
         </div>
-      </footer>
-      <!-- footer section end -->
-    </div>
+      </div>
+    </section>
+    <!-- here ended the hero section  -->
 
-    <!-- javascript file link  -->
-    <script src="./asset/js/glider.js"></script>
-    <script src="./asset/js/script.js"></script>
-    <script src="./asset/js/slider.js"></script>
-  </body>
+    <!-- review section start -->
+    <section
+      class="h-[13.4rem] bg-[#EEECE8] p-10 flex items-center justify-center gap-20 border-b-[0.1rem] border-[#BEB8AE]">
+      <div class="review-slider">
+        <!-- layout 1 -->
+        <div class="flex items-center justify-center gap-5">
+          <img class="w-[5.75rem] h-[5.75rem]" src="./asset/img/review_img1.png" alt="person img" />
+          <div>
+            <h3 class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize">
+              Sarah Wyne
+            </h3>
+            <div class="flex gap-1 items-center justify-center">
+              <h4 class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize">
+                5.0
+              </h4>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+            </div>
+            <p class="text-[#787878] text-xs not-italic font-normal leading-5 tracking-[0.0175rem] capitalize">
+              10 Feb, 2023
+            </p>
+          </div>
+        </div>
+
+        <!-- layout 2 -->
+        <div class="flex items-center justify-center gap-5">
+          <img class="w-[5.75rem] h-[5.75rem]" src="./asset/img/review_img2.png" alt="person img" />
+          <div>
+            <h3 class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize">
+              Sarah Wyne
+            </h3>
+            <div class="flex gap-1 items-center justify-center">
+              <h4 class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize">
+                5.0
+              </h4>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+            </div>
+            <p class="text-[#787878] text-xs not-italic font-normal leading-5 tracking-[0.0175rem] capitalize">
+              10 Feb, 2023
+            </p>
+          </div>
+        </div>
+
+        <!-- layout 3 -->
+        <div class="flex items-center justify-center gap-5">
+          <img class="w-[5.75rem] h-[5.75rem]" src="./asset/img/review_img3.png" alt="person img" />
+          <div>
+            <h3 class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize">
+              Sarah Wyne
+            </h3>
+            <div class="flex gap-1 items-center justify-center">
+              <h4 class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize">
+                5.0
+              </h4>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+            </div>
+            <p class="text-[#787878] text-xs not-italic font-normal leading-5 tracking-[0.0175rem] capitalize">
+              10 Feb, 2023
+            </p>
+          </div>
+        </div>
+
+        <!-- layout 4 -->
+        <div class="flex items-center justify-center gap-5">
+          <img class="w-[5.75rem] h-[5.75rem]" src="./asset/img/review_img4.png" alt="person img" />
+          <div>
+            <h3 class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize">
+              Sarah Wyne
+            </h3>
+            <div class="flex gap-1 items-center justify-center">
+              <h4 class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize">
+                5.0
+              </h4>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+            </div>
+            <p class="text-[#787878] text-xs not-italic font-normal leading-5 tracking-[0.0175rem] capitalize">
+              10 Feb, 2023
+            </p>
+          </div>
+        </div>
+
+        <!-- layout 5 -->
+        <div class="flex items-center justify-center gap-5">
+          <img class="w-[5.75rem] h-[5.75rem]" src="./asset/img/review_img5.png" alt="person img" />
+          <div>
+            <h3 class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize">
+              Sarah Wyne
+            </h3>
+            <div class="flex gap-1 items-center justify-center">
+              <h4 class="text-black text-[1.125rem] leading-5 tracking-[0.0175rem] capitalize">
+                5.0
+              </h4>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+            </div>
+            <p class="text-[#787878] text-xs not-italic font-normal leading-5 tracking-[0.0175rem] capitalize">
+              10 Feb, 2023
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review section end -->
+
+    <!-- service section start  -->
+    <section class="service bg-[#EEECE8] min-h-[35rem] w-full">
+      <div class="sm:w-full md:w-[95%] lg:w-[85%] mx-auto">
+        <div class="flex gap-9 items-center py-20">
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+            <circle cx="4" cy="4" r="4" fill="#FF6D43" />
+          </svg>
+          <h1 class="text-[#291E18] text-center not-italic text-[2.6875rem] font-normal leading-10">
+            Our Services
+          </h1>
+        </div>
+
+        <div class="services-slider">
+          <!-- here started the single service section  -->
+          <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
+            <div class="w-3/4 h-full bg-white">
+              <div class="flex mt-[5.5rem] justify-center items-center">
+                <div class="w-4/5">
+                  <h1 class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]">
+                    Painting
+                  </h1>
+                  <p class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]">
+                    From helping you choose the perfect color palette to
+                    executing precise brushwork, we bring life and vibrancy to
+                    your home's walls, creating an atmosphere that reflects
+                    your unique style.
+                  </p>
+                  <a class="bg-[#FF6D43] py-4 px-10 text-[#EEECE8] rounded-full cursor-pointer stretch-btn">
+                    <span>Learn More</span>
+                    <div class="stretch-arrow ml-2 bg-white inline-block mb-[0.2rem]"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/4 h-full">
+              <img src="asset/img/service_paint.png" class="h-full" alt="" srcset="" />
+            </div>
+          </div>
+          <!-- single service section ended -->
+          <!-- here started the single service section  -->
+          <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
+            <div class="w-3/4 h-full bg-white">
+              <div class="flex mt-[5.5rem] justify-center items-center">
+                <div class="w-4/5">
+                  <h1 class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]">
+                    Painting
+                  </h1>
+                  <p class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]">
+                    From helping you choose the perfect color palette to
+                    executing precise brushwork, we bring life and vibrancy to
+                    your home's walls, creating an atmosphere that reflects
+                    your unique style.
+                  </p>
+                  <a class="bg-[#FF6D43] py-4 px-10 text-[#EEECE8] rounded-full cursor-pointer stretch-btn">
+                    <span>Learn More</span>
+                    <div class="stretch-arrow ml-2 bg-white inline-block mb-[0.2rem]"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/4 h-full">
+              <img src="asset/img/service_paint.png" class="h-full" alt="" srcset="" />
+            </div>
+          </div>
+          <!-- single service section ended -->
+          <!-- here started the single service section  -->
+          <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
+            <div class="w-3/4 h-full bg-white">
+              <div class="flex mt-[5.5rem] justify-center items-center">
+                <div class="w-4/5">
+                  <h1 class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]">
+                    Painting
+                  </h1>
+                  <p class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]">
+                    From helping you choose the perfect color palette to
+                    executing precise brushwork, we bring life and vibrancy to
+                    your home's walls, creating an atmosphere that reflects
+                    your unique style.
+                  </p>
+                  <a
+                    class="bg-[#FF6D43] inline-block py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]">Learn
+                    More
+                    <i class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/4 h-full">
+              <img src="asset/img/service_paint.png" class="h-full" alt="" srcset="" />
+            </div>
+          </div>
+          <!-- single service section ended -->
+          <!-- here started the single service section  -->
+          <div class="min-w-[30rem] h-[20rem] mx-4 flex service-item">
+            <div class="w-3/4 h-full bg-white">
+              <div class="flex mt-[5.5rem] justify-center items-center">
+                <div class="w-4/5">
+                  <h1 class="text-gray-900 not-italic text-[2.6875rem] font-normal leading-[3.24rem] pb-[1.06rem]">
+                    Painting
+                  </h1>
+                  <p class="text-gray-900 text-base not-italic font-normal opacity-[0.7] pb-[7.03rem]">
+                    From helping you choose the perfect color palette to
+                    executing precise brushwork, we bring life and vibrancy to
+                    your home's walls, creating an atmosphere that reflects
+                    your unique style.
+                  </p>
+                  <a
+                    class="bg-[#FF6D43] inline-block py-4 px-5 text-[#EEECE8] rounded-full cursor-pointer mb-[5.82rem]">Learn
+                    More
+                    <i class="fa-solid fa-arrow-right-long ml-5 position-absolute right-0 top-0"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/4 h-full">
+              <img src="asset/img/service_paint.png" class="h-full" alt="" srcset="" />
+            </div>
+          </div>
+          <!-- single service section ended -->
+        </div>
+      </div>
+    </section>
+    <!-- service section end -->
+
+    <!-- reno work section start  -->
+    <section class="renoWork bg-[#EEECE8] min-h-[35rem] w-full py-12">
+      <div class="pb-52">
+        <div class="mb-20">
+          <h1 class="text-gray-900 text-center not-italic font-normal leading-10 text-[2.75rem] mb-7">
+            See how we work
+          </h1>
+          <p
+            class="text-gray-900 text-center text-base not-italic font-normal leading-6 w-[53rem] m-auto opacity-70 px-20">
+            Our seasoned team of professionals brings years of expertise to
+            every project. From conceptualization to execution.
+          </p>
+        </div>
+        <!-- video section start  -->
+        <div class="videoReno w-[76.0625rem] h-[35.4375rem] m-auto bg-black">
+          <img id="logo2" src="./asset/img/reno_logo_2.png" alt="logo" />
+          <div class="play">
+            <svg id="ellipsImg" xmlns="http://www.w3.org/2000/svg" width="94" height="93" viewBox="0 0 94 93"
+              fill="none">
+              <g filter="url(#filter0_b_315_142)">
+                <circle cx="47" cy="46.5" r="46.5" fill="white" />
+              </g>
+              <defs>
+                <filter id="filter0_b_315_142" x="-5.5" y="-6" width="105" height="105" filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feGaussianBlur in="BackgroundImageFix" stdDeviation="3" />
+                  <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_315_142" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_315_142" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <svg id="pollyImg" xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18"
+              fill="none">
+              <path d="M15.5 9L0.499999 17.6603L0.5 0.339745L15.5 9Z" fill="#FF6D43" />
+            </svg>
+          </div>
+
+          <video poster="#000" src="./asset/video/Construction_promo_video.mp4"></video>
+        </div>
+        <!-- video section end  -->
+      </div>
+    </section>
+    <!-- reno work section end  -->
+
+    <!-- free quote section start here  -->
+    <section class="grid md:grid-cols-2 mb-20">
+      <div class="flex justify-center items-center">
+        <div class="bg-[#fff] w-3/4 flex flex-col gap-20">
+          <h1 class="text-gray-900 text-5xl not-italic font-normal leading-10">
+            Request Your Free Reno Quote!
+          </h1>
+          <p class="text-gray-900 text-lg not-italic font-normal leading-7">
+            Take the first step towards transforming your space by requesting
+            a free, no-obligation renovation quote. Simply fill out the form
+            below, and let's start the conversation.
+          </p>
+          <div class="flex gap-2">
+            <a class="bg-[#FF6D43] py-4 px-10 text-[#EEECE8] rounded-full cursor-pointer stretch-btn">
+              <span>Get a free quote</span>
+              <div class="stretch-arrow ml-2 bg-white inline-block mb-[0.2rem]"></div>
+            </a>
+            <a class="border-[#BEB8AE] border py-4 px-10 rounded-full cursor-pointer stretch-btn">
+              <span>Contact Us</span>
+              <div class="stretch-arrow bg-slate-950 ml-2 inline-block mb-[0.2rem]"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-[#C6E4EE] flex justify-center items-center pt-10">
+        <img src="./asset/img/MDL 1.png" alt="man image" />
+      </div>
+    </section>
+    <!-- free quote section end here  -->
+
+    <!-- testimonial section start here  -->
+    <section class="bg-[#EEECE8] min-h-[35rem] w-full py-12 flex flex-row justify-center items-center gap-10">
+      <div class="leftSide">
+        <div class="flex gap-9 items-center py-20 mb-[3.19rem]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+            <circle cx="4" cy="4" r="4" fill="#FF6D43" />
+          </svg>
+          <h1 class="text-[#291E18] text-center not-italic text-[2.7rem] font-normal leading-10">
+            Testimonials
+          </h1>
+        </div>
+        <p class="text-[#291E18] text-base not-italic font-normal leading-6 mb-[12rem] w-[33rem]">
+          Discover the stories of satisfaction and joy from our valued
+          clients. Their experiences with Renoexpert go beyond renovations.
+        </p>
+
+        <div class="flex gap-8">
+          <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88" fill="none"
+            class="cursor-pointer">
+            <rect width="88" height="88" rx="44" transform="matrix(-1 0 0 1 88 0)" fill="white" />
+            <path d="M41.5 43.525V41L37 44.03L41.5 47.06V44.535H50V43.525H41.5Z" fill="#291E18" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88" fill="none"
+            class="cursor-pointer">
+            <rect width="88" height="88" rx="44" fill="white" />
+            <path d="M46.5 43.525V41L51 44.03L46.5 47.06V44.535H38V43.525H46.5Z" fill="#291E18" />
+          </svg>
+        </div>
+      </div>
+      <div class="rightSide">
+        <div class="w-[47.5rem] h-[31rem] bg-white p-20 flex flex-col gap-24" id="bg_right">
+          <img id="coma" src="./asset/img/appostopic_coma.png" alt="coma" />
+          <div class="flex flex-col gap-8">
+            <div class="star_icon flex gap-2">
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+              <i class="fa-solid fa-star text-[#FF6D43]"></i>
+            </div>
+            <p class="text-xl font-normal leading-7 tracking-normal text-left text-[#291E18]">
+              Thank you Araf and team for completing painting of my kids
+              bedroom including feature walls and master bedroom within 2
+              days. They were super efficient and responsive. Pure dedication
+              and quick response to confirm paint and design works. They were
+              willing to do.....<span class="text-[#FF6D43] cursor-pointer">read more</span>
+            </p>
+          </div>
+          <div class="">
+            <img class="" src="./asset/img/reviewer_img.png" alt="person" />
+            <p class="text-[#291E18] mt-4">Avelina Ho 7 January 2023</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial section end here  -->
+
+    <!-- renovate your home start  -->
+    <section class="bg-black p-6 h-[35rem] flex justify-center items-center">
+      <div class="flex flex-col gap-3 justify-center items-center m-4">
+        <h1 class="text-white text-6xl font-normal tracking-normal text-left leading-[77px]">
+          Ready to renovate your home?
+        </h1>
+        <p class="text-white text-lg font-normal leading-5 tracking-normal text-center">
+          Drop us a line to discuss how Renoexpert can help you to organize
+          your dream Home.
+        </p>
+        <a class="bg-[#FF6D43] py-4 px-10 text-[#EEECE8] rounded-full cursor-pointer stretch-btn">
+          <span>Make a free Quote</span>
+          <div class="stretch-arrow ml-2 bg-white inline-block mb-[0.2rem]"></div>
+        </a>
+      </div>
+    </section>
+    <!-- renovate your home end -->
+
+    <!-- why choose section start  -->
+    <section class="bg-white min-h-[50rem] w-auto flex flex-col pt-28">
+      <div class="flex flex-col justify-center items-center gap-6 mb-32">
+        <h1 class="text-5xl font-normal tracking-normal text-center leading-[52px] text-[#291E18]">
+          Why Choose <span class="text-[#FF6D43]">Renoexpert</span>?
+        </h1>
+        <p class="text-[#291E18] opacity-[80%] w-[60rem] text-center mt-4">
+          At Renoexpert, we understand that choosing a partner for your home
+          renovation is a significant decision. Our commitment goes beyond
+          craftsmanship—we offer a unique blend of expertise, dedication, and
+          personalized service. Here's why countless homeowners in Singapore
+          choose us as their trusted renovation partner.
+        </p>
+      </div>
+      <div class="flex m-auto items-center text-center gap-32">
+        <div class="l-side flex flex-col gap-16">
+          <!-- div 1 -->
+          <div class="flex gap-9 justify-center items-center">
+            <div class="h-[9rem] w-[9rem] bg-[#c6e4ee] flex justify-center items-center">
+              <img src="./asset/img/team.png" alt="team" />
+            </div>
+            <div>
+              <h3 class="text-3xl font-normal leading-9 tracking-normal text-left choose_head_text">
+                Expert Team
+              </h3>
+              <span class="w-[9rem] h-[0.125rem] bg-[#FF6D43] choose_head_border"></span>
+              <p class="text-base font-normal leading-6 tracking-normal text-left w-[25rem]">
+                Our team comprises seasoned professionals with a wealth of
+                experience. From skilled craftsmen to creative designers.
+              </p>
+            </div>
+          </div>
+          <!-- div 1 -->
+          <!-- div 2 -->
+          <div class="flex gap-9 justify-center items-center">
+            <div class="h-[9rem] w-[9rem] bg-[#c6e4ee] flex justify-center items-center">
+              <img src="./asset/img/dollar.png" alt="team" />
+            </div>
+            <div>
+              <h3 class="text-3xl font-normal leading-9 tracking-normal text-left choose_head_text">
+                Budget-Friendly Solutions
+              </h3>
+              <span class="w-[9rem] h-[0.125rem] bg-[#FF6D43] choose_head_border"></span>
+              <p class="text-base font-normal leading-6 tracking-normal text-left w-[25rem]">
+                we understand the importance of staying within budget without
+                sacrificing quality. Our commitment to budget-friendly
+                solutions ensures that your dream home remains both
+                spectacular and financially sensible
+              </p>
+            </div>
+          </div>
+          <!-- div 2 -->
+          <!-- div 3 -->
+          <div class="flex gap-9 justify-center items-center">
+            <div class="h-[9rem] w-[9rem] bg-[#c6e4ee] flex justify-center items-center">
+              <img src="./asset/img/clock_time.png" alt="team" />
+            </div>
+            <div>
+              <h3 class="text-3xl font-normal leading-9 tracking-normal text-left choose_head_text">
+                Timely Delivery
+              </h3>
+              <span class="w-[9rem] h-[0.125rem] bg-[#FF6D43] choose_head_border"></span>
+              <p class="text-base font-normal leading-6 tracking-normal text-left w-[25rem]">
+                We value your time as much as you do. With Renoexpert, expect
+                not just a beautifully renovated space, but also timely
+                project delivery.
+              </p>
+            </div>
+          </div>
+          <!-- div 3 -->
+        </div>
+        <div class="r-side bg-[#c6e4ee] flex justify-center items-center">
+          <img class="px-32 pt-24" src="./asset/img/man_image.png" alt="man image" />
+        </div>
+      </div>
+    </section>
+    <!-- why choose section end -->
+
+    <!-- blog section start  -->
+    <section class="bg-black flex gap-16 justify-center py-40">
+      <div>
+        <div class="flex gap-9 mb-[3.19rem] justify-center">
+          <span class="pt-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+              <circle cx="4" cy="4" r="4" fill="#FF6D43" />
+            </svg>
+          </span>
+          <h1 class="text-[#EEECE8] text-left not-italic text-[2.7rem] font-normal leading-[52px]">
+            Explore Our <br />
+            <span class="text-[#FF6D43]">Renovation Blogs</span>
+          </h1>
+        </div>
+        <p class="text-[#EEECE8] w-[36rem] text-base font-normal leading-6 tracking-normal text-left mb-[3.19rem]">
+          Dive into the world of design, innovation, and home transformation
+          with our curated blog.
+        </p>
+        <a class="border-[#BEB8AE] text-white border py-4 px-10 rounded-full cursor-pointer stretch-btn">
+          <span>SEE ALL</span>
+          <div class="stretch-arrow bg-white ml-2 inline-block mb-[0.2rem]"></div>
+        </a>
+      </div>
+      <div>
+        <div class="flex gap-11 justify-center items-center border-b-[0.1px] border-[#BEB8AE] pb-20">
+          <img src="./asset/img/blog_img1.png" alt="blog image" />
+          <div class="flex flex-col gap-5">
+            <h3 class="text-3xl font-normal leading-8 tracking-normal text-left text-white">
+              Creative Ideas for Small Spaces
+            </h3>
+            <p class="text-sm font-normal leading-5 tracking-normal text-left text-[#EEECE8] w-[22.6rem]">
+              Discover innovative ways to maximize space without compromising
+              on style.
+            </p>
+            <div class="flex items-center gap-4">
+              <img src="./asset/img/date_pointer_bg.png" alt="date_pointer_bg" />
+              <p class="text-xs font-normal leading-4 tracking-normal text-left text-[#EEECE8]">
+                7 January 2023
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- =================================================== -->
+        <div class="flex gap-11 justify-center items-center pt-20">
+          <img src="./asset/img/blog_img2.png" alt="blog image" />
+          <div class="flex flex-col gap-5">
+            <h3 class="text-3xl font-normal leading-8 tracking-normal text-left text-white">
+              The Colors Shaping Home Interiors in 2024
+            </h3>
+            <p class="text-sm font-normal leading-5 tracking-normal text-left text-[#EEECE8] w-[22.6rem]">
+              Stay ahead of the curve with a glimpse into the hues and
+              palettes that are making waves in interior design this year.
+            </p>
+            <div class="flex items-center gap-4">
+              <img src="./asset/img/date_pointer_bg.png" alt="date_pointer_bg" />
+              <p class="text-xs font-normal leading-4 tracking-normal text-left text-[#EEECE8]">
+                24 December 2023
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section end -->
+
+    <!-- contact us section start  -->
+    <section class="bg-white">
+      <div>
+        <div class="flex gap-9 mb-[3.19rem] justify-start items-center">
+          <img src="./asset/img/email_contact.png" alt="email_icon" />
+          <span class="pt-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+              <circle cx="4" cy="4" r="4" fill="#FF6D43" />
+            </svg>
+          </span>
+          <h1 class="text-[#291E18] text-left not-italic text-[2.7rem] font-normal leading-[52px]">
+            Contact us
+          </h1>
+        </div>
+        <p class="text-[#291E18] w-[36rem] text-base font-normal leading-6 tracking-normal text-left mb-[3.19rem]">
+          We will call you back within 30 minutes.
+        </p>
+      </div>
+      <div></div>
+    </section>
+    <!-- contact us section end -->
+
+    <!-- footer section start  -->
+    <footer class="bg-black w-full box-border  pt-16">
+      <div class="grid grid-cols-4 gap-y-20 lg:w-[85%] md:w-[95%] mx-auto">
+        <div class="col-span-2 h-20">
+          <img src="/asset/img/l-mark-1.png" alt="logo">
+        </div>
+        <div class="col-span-2 h-20">
+          <div class="w-full flex justify-end">
+            <img src="/asset/icons/facebook-icon.png" alt="">
+            <img class="mx-6" src="/asset/icons/whatsapp-icon.png" alt="">
+            <img src="/asset/icons/linkedin-icon.png" alt="">
+          </div>
+        </div>
+        <div class=" col-span-1 ">
+          <div>
+            <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Home</a>
+            <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">About</a>
+            <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Our Accreditation</a>
+            <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Testimonial</a>
+            <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Contact Us</a>
+          </div>
+        </div>
+        <div class="col-span-2">
+          <div>
+            <div class="flex gap-2 items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                <circle cx="4" cy="4" r="4" fill="#FF6D43" />
+              </svg>
+              <span class="text-[#EEECE8] text-[0.87rem] text-center not-italic font-normal leading-7">
+                Services
+              </span>
+            </div>
+            <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Painting</a>
+            <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Electrical</a>
+            <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Wall/Floring</a>
+            <a class="text-[#EEECE8] block mb-1 text-[1.25rem]" href="#">Plumbing</a>
+          </div>
+        </div>
+        <div class="col-span-1">
+          <div class="flex justify-center items-end flex-col h-full">
+
+            <div class="flex items-center border w-64 justify-center py-4 rounded-full cursor-pointer mb-8">
+              <img src="/asset/icons/phone-icon.png" alt="">
+              <span class="text-[#EEECE8] ml-3">677 644 9115 8246</span>
+            </div>
+
+            <p class="w-[24.938rem] text-[#EEECE8] text-right">
+              M-space, 6D Mandai Estate#03-12, Singapore 729938(Office/Showroom/Workshop)
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="w-full bg-[#D9D9D9] h-[0.004rem] mt-40"></div>
+      <div class="grid grid-cols-4 lg:w-[85%] md:w-[95%] mx-auto py-10">
+        <div class="col-span-1">
+          <div class="flex gap-2 items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+              <circle cx="4" cy="4" r="4" fill="#FF6D43" />
+            </svg>
+            <a class="text-[#EEECE8] text-[0.87rem] text-center not-italic font-normal leading-7">
+              Renoexpert.com.sg @ 2024
+            </a>
+          </div>
+        </div>
+        <div class="col-span-2">
+          <span class="text-[#EEECE8] text-[0.87rem] text-center not-italic font-normal leading-7">
+            All rights reserved
+          </span>
+        </div>
+        <div class="col-span-1 text-right">
+          <span class="text-[#EEECE8] text-[0.87rem] not-italic font-normal leading-7">
+            Privacy & policy
+          </span>
+        </div>
+
+      </div>
+    </footer>
+    <!-- footer section end -->
+  </div>
+
+  <!-- javascript file link  -->
+  <script src="./asset/js/glider.js"></script>
+  <script src="./asset/js/script.js"></script>
+  <script src="./asset/js/slider.js"></script>
+</body>
+
 </html>

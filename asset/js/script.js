@@ -14,3 +14,12 @@ ellipsImg.addEventListener("click", function (e) {
 });
 
 // video section js
+
+
+// stretch arrow js section 
+const stretchArrow = document.querySelectorAll(".strech-arrow");
+stretchArrow.forEach((item)=>{
+  item.setAttribute("width", 54)
+  // item.setAttribute("height", 20)
+})
+// stretch arrow js section 
