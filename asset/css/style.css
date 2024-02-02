@@ -79,3 +79,13 @@
 .services-slider{
   background-image: url(../img/artboard.png);
 }
+
+
+#bg_right{
+  position: relative;
+}
+
+#coma{
+  position: absolute;
+  right: 2rem;
+}
