@@ -18,7 +18,7 @@
     background-image: url("../img/hero-img.png");
     z-index: 4;
     background-repeat: no-repeat;
-    background-size: 110% 100%;
+    background-size: 110% 110%;
 }
 
 
@@ -102,31 +102,15 @@
 
 
 
+/* here started some utitlity classes  */
 
-/* arrow  */
-.stretch-arrow {
-  width: 34px;
-  height: 2px;
-  position: relative;
-  transition: 0.5s;
-}
 
-.stretch-arrow::before{
-  content: "";
-  position: absolute;
-  
-  right: -2px;
-  top: -3px;
-
-  width: 0;
-	height: 0;
-	border-top: 4px solid transparent;
-	border-left: 8px solid;
-	border-bottom: 4px solid transparent;
+.container-general{
 
 }
 
-.stretch-btn:hover .stretch-arrow{
-  width: 54px;
+.container-exceptional{
+  width: 90%;
+  margin-left: 10%;
 }
-
+/* here ended some utitlity classes  */

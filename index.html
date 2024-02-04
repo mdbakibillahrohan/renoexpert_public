@@ -16,17 +16,18 @@
 <body>
   <div class="wrapper">
     <!-- header start  -->
-    <header class="header_wrapper w-full box-border bg-[#EEECE8] px-6 border-b-[0.1rem] border-[#BEB8AE]">
-      <nav class="flex justify-between w-full h-20 items-center">
+    <header
+      class="header_wrapper aspect-[1920/103] flex items-center w-full box-border bg-[#EEECE8] px-[2.083vw] border-b-[0.1rem] border-[#BEB8AE]">
+      <nav class="flex justify-between w-full  items-center">
         <div class="logo">
           <a href="#">
-            <img src="./asset/img/reno_logo.png" alt="Reno Expert" />
+            <img class="w-[10.781vw] aspect-[207/40]" src="./asset/img/reno_logo.png" alt="Reno Expert" />
           </a>
         </div>
         <div class="">
           <ul class="flex gap-6">
             <li class="cursor-pointer service">
-              <a class="text-[#291E18] text-lg" href="#">Services
+              <a class="text-[#291E18] text-[0.833vw]" href="#">Services
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none"
                   class="inline ml-1">
                   <path d="M5 6L0.669873 1.38009e-07L9.33013 8.95112e-07L5 6Z" fill="#FF6D43" />
@@ -34,20 +35,26 @@
               </a>
             </li>
             <li class="cursor-pointer">
-              <a class="text-[#291E18] text-lg" href="#">About</a>
+              <a class="text-[#291E18] text-[0.833vw]" href="#">About</a>
             </li>
             <li class="cursor-pointer">
-              <a class="text-[#291E18] text-lg" href="#">Testimonial</a>
+              <a class="text-[#291E18] text-[0.833vw]" href="#">Testimonial</a>
             </li>
             <li class="cursor-pointer">
-              <a class="text-[#291E18] text-lg" href="#">Products</a>
+              <a class="text-[#291E18] text-[0.833vw]" href="#">Products</a>
             </li>
           </ul>
         </div>
-        <div class="w-[18.5rem]">
-          <a class="bg-[#FF6D43] py-4 px-10 text-[#EEECE8] rounded-full cursor-pointer stretch-btn">
-            <span>Get a free quote</span>
-            <div class="stretch-arrow ml-2 bg-white inline-block mb-[0.2rem]"></div>
+        <div>
+          <a
+            class="bg-[#FF6D43] py-[0.938vw] px-[2.448vw] text-[#EEECE8] text-[0.729vw] rounded-full cursor-pointer flex items-center">
+            <span>Make a free quote</span>
+
+            <svg class="ml-[1.042vw]" width="54" height="7" viewBox="0 0 54 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M48.8887 2.99497V0.469971L53.3887 3.49997L48.8887 6.52997V4.00497H0.388672V2.99497H48.8887Z"
+                fill="#EEECE8" />
+            </svg>
+
           </a>
         </div>
       </nav>
@@ -55,27 +62,32 @@
     <!-- header ends -->
 
     <!-- here started the hero section  -->
-    <section
-      class="hero h-[calc(100vh-18.5rem)] min-h-[35rem] border-[#BEB8AE] bg-[#EEECE8] w-full relative border-b-[0.1rem]">
-      <div class="h-full sm:w-full md:w-[95%] lg:w-[90%] absolute right-0">
+    <section class="hero border-[#BEB8AE] bg-[#EEECE8] w-full border-b-[0.1rem]">
+      <div class="aspect-[1920/702] container-exceptional">
         <div class="flex h-full w-full">
-          <div class="h-full w-[43%] flex justify-end items-center">
+          <div class="w-[35%] flex justify-end items-center">
             <div class="w-[37.6875rem] mr-6">
-              <h1 class="text-[2.7rem] leading-[3.24rem] text-[#291E18]">
+              <h1 class="text-[2.25vw] leading-[2.7vw] text-[#291E18]">
                 Where Vision Meets Precision, Every Detail Matters.
               </h1>
-              <p class="text-[1.125rem] my-12 text-[#291E18CC]">
+              <p class="text-[0.938vw] my-12 text-[#291E18CC]">
                 At Renoexpert, we believe every home has a unique story to
                 tell. Our skilled team in Singapore specializes in turning
                 your space into a narrative of style, comfort, and innovation.
               </p>
-              <a class="bg-[#FF6D43] py-4 px-10 inline-block text-[#EEECE8] rounded-full cursor-pointer z-10">Make a
-                free quote
-                <i class="fa-solid fa-arrow-right-long ml-3"></i>
-              </a>
+              <a
+            class="bg-[#FF6D43] py-[0.938vw] px-[2.448vw] text-[#EEECE8] text-[0.729vw] rounded-full cursor-pointer inline-block items-center">
+            <span>Make a free quote</span>
+
+            <svg class="ml-[1.042vw] inline" width="54" height="7" viewBox="0 0 54 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M48.8887 2.99497V0.469971L53.3887 3.49997L48.8887 6.52997V4.00497H0.388672V2.99497H48.8887Z"
+                fill="#EEECE8" />
+            </svg>
+
+          </a>
             </div>
           </div>
-          <div class="h-full flex w-[57%] justify-end items-center overflow-visible">
+          <div class="h-full flex w-[65%] justify-end items-center overflow-visible">
             <!-- <img class="" src="/asset/img/3d floor plan 3.png" alt="" srcset="" /> -->
             <div class="hero-img w-full h-full"></div>
           </div>
@@ -505,7 +517,7 @@
               <h3 class="text-3xl font-normal leading-9 tracking-normal text-left choose_head_text">
                 Expert Team
               </h3>
-              <span class="w-[9rem] h-[0.125rem] bg-[#FF6D43] choose_head_border"></span>
+              
               <p class="text-base font-normal leading-6 tracking-normal text-left w-[25rem]">
                 Our team comprises seasoned professionals with a wealth of
                 experience. From skilled craftsmen to creative designers.
@@ -522,7 +534,6 @@
               <h3 class="text-3xl font-normal leading-9 tracking-normal text-left choose_head_text">
                 Budget-Friendly Solutions
               </h3>
-              <span class="w-[9rem] h-[0.125rem] bg-[#FF6D43] choose_head_border"></span>
               <p class="text-base font-normal leading-6 tracking-normal text-left w-[25rem]">
                 we understand the importance of staying within budget without
                 sacrificing quality. Our commitment to budget-friendly
@@ -541,7 +552,6 @@
               <h3 class="text-3xl font-normal leading-9 tracking-normal text-left choose_head_text">
                 Timely Delivery
               </h3>
-              <span class="w-[9rem] h-[0.125rem] bg-[#FF6D43] choose_head_border"></span>
               <p class="text-base font-normal leading-6 tracking-normal text-left w-[25rem]">
                 We value your time as much as you do. With Renoexpert, expect
                 not just a beautifully renovated space, but also timely
@@ -647,7 +657,7 @@
 
     <!-- footer section start  -->
     <footer class="bg-black w-full box-border  pt-16">
-      <div class="grid grid-cols-4 gap-y-20 lg:w-[85%] md:w-[95%] mx-auto">
+      <div class="grid grid-cols-4 gap-y-20 xl:w-[80%] lg:w-[85%] md:w-[95%] mx-auto">
         <div class="col-span-2 h-20">
           <img src="/asset/img/l-mark-1.png" alt="logo">
         </div>
