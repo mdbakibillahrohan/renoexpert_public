@@ -10,16 +10,14 @@ ellipsImg.addEventListener("click", function (e) {
   video.controls = !video.controls;
   ellipsImg.classList.add("playHidden");
   pollyImg.classList.add("playHidden");
-  videoReno.classList.remove("bg-black");
 });
 
 // video section js
 
-
-// stretch arrow js section 
+// stretch arrow js section
 const stretchArrow = document.querySelectorAll(".strech-arrow");
-stretchArrow.forEach((item)=>{
-  item.setAttribute("width", 54)
+stretchArrow.forEach((item) => {
+  item.setAttribute("width", 54);
   // item.setAttribute("height", 20)
-})
-// stretch arrow js section 
+});
+// stretch arrow js section
