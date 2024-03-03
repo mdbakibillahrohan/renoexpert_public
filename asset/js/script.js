@@ -35,3 +35,16 @@ document.getElementById("dropdown").addEventListener("mouseleave", ()=>{
 })
 
 /** Menu hover effect */
+
+
+
+// new Glider(document.querySelector('.review-slider'), {
+//   slidesToShow: 3,
+//   slidesToScroll: 1,
+//   draggable: true,
+//   dots: '.dots',
+//   arrows: {
+//     prev: '.glider-prev',
+//     next: '.glider-next'
+//   }
+// });

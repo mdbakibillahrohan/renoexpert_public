@@ -1,8 +1,8 @@
 
 // here started the review section slider 
 new Glider(document.querySelector('.review-slider'), {
-    slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     draggable: true,
     dots: '.dots',
     arrows: {
@@ -14,15 +14,14 @@ new Glider(document.querySelector('.review-slider'), {
 //   here ended the review section slider 
 
 // here started the services slider 
-new Glider(document.querySelector('.services-slider'), {
-    slidesToShow: 2,
+new Glider(document.querySelector('.testimonial-slider'), {
+    slidesToShow: 1,
     slidesToScroll: 1,
     draggable: true,
     dots: '.dots',
-    height: '28rem',
     arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
+      prev: '.testimonial-prev',
+      next: '.testimonial-next'
     }
   });
 // here ended the services slider 
