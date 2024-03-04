@@ -1,7 +1,7 @@
 
 // here started the review section slider 
 new Glider(document.querySelector('.review-slider'), {
-    slidesToShow: 3,
+    slidesToShow: 3.2,
     slidesToScroll: 3,
     draggable: true,
     dots: '.dots',
