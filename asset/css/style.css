@@ -1,53 +1,49 @@
 @font-face {
-  font-family: 'Transducer Test Regular';
-  src: url("../fonts/TransducerTest-Regular-BF645c3dd843c3b.otf") format("opentype");
+  font-family: "Transducer Test Regular";
+  src: url("../fonts/TransducerTest-Regular-BF645c3dd843c3b.otf")
+    format("opentype");
 }
 
-*{
-  font-family: 'Transducer Test Regular';
+* {
+  font-family: "Transducer Test Regular";
 }
 
 /* .hero{
     height: calc(100%-5%);
 } */
 
-
-#dropdown{
+#dropdown {
   transition: 0.5s ease-in-out;
 }
 
-
-.hero{
-    z-index: -1;
+.hero {
+  z-index: -1;
 }
-.hero-img{
-    background-image: url("../img/hero-img.png");
-    z-index: 4;
-    background-repeat: no-repeat;
-    background-size: 110% 100%;
-}
-
-
-.paintingBg{
-    background: url(../img/service_paint.png), lightgray 50% ;
-    background-repeat: no-repeat;
-    background-size: 110%;
+.hero-img {
+  background-image: url("../img/hero-img.png");
+  z-index: 4;
+  background-repeat: no-repeat;
+  background-size: 110% 100%;
 }
 
+.paintingBg {
+  background: url(../img/service_paint.png), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
 
 /* video section css start  */
 
-#video{
+#video {
   position: absolute;
 }
 
-#logo2{
+#logo2 {
   position: relative;
   top: 2.44rem;
   left: 2.53rem;
-
 }
-.play{
+.play {
   position: absolute;
   position: relative;
   top: 30%;
@@ -56,7 +52,7 @@
   right: 0;
 }
 
-#ellipsImg{
+#ellipsImg {
   position: relative;
   top: 50%;
   left: 46%;
@@ -64,11 +60,11 @@
   right: 50%;
 }
 
-.playHidden{
+.playHidden {
   display: none;
 }
 
-#pollyImg{
+#pollyImg {
   position: absolute;
   top: 40%;
   left: 49.3%;
@@ -78,7 +74,7 @@
 
 /* video section css end */
 
-.service-item{
+.service-item {
   height: 28rem !important;
 }
 
@@ -86,38 +82,44 @@
   background-image: url(../img/artboard.png);
 } */
 
-
-#bg_right{
+#bg_right {
   position: relative;
 }
 
-#coma{
+#coma {
   position: absolute;
   right: 2rem;
 }
 
-.choose_head_text{
+.choose_head_text {
   position: relative;
 }
 
-.choose_head_border{
+.choose_head_border {
   position: absolute;
   left: 0;
   top: 2rem;
 }
 
-
-
 /* here started some utitlity classes  */
-
-
-.container-general{
+.container-general {
   width: 80%;
   margin: 0 auto;
 }
 
-.container-exceptional{
+.container-exceptional {
   width: 90%;
   margin-left: 10%;
 }
 /* here ended some utitlity classes  */
+
+@media only screen and (max-width: 768px) {
+  .container-exceptional {
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+  .container-general {
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+}
