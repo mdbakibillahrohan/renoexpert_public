@@ -22,7 +22,7 @@
         id="dropdown"
         class="absolute top-[1.175vw] -translate-y-[17.175vw] duration-150 w-full bg-white mt-[4.375vw] z-10 py-6"
       >
-        <ul class="text-[1.146vw] ml-[35.5vw]">
+        <ul class="text-[1.146vw] ml-[35.5vw] hidden md:block">
           <li><a href="#">Renovation</a></li>
           <li><a href="#">Renovation</a></li>
           <li><a href="#">Renovation</a></li>
@@ -108,37 +108,49 @@
       <section
         class="hero border-[#BEB8AE] bg-[#EEECE8] w-full border-b-[0.1rem]"
       >
-        <div class="md:aspect-[1720/702] container-exceptional">
-          <div class="flex h-full w-full justify-between">
-            <div class="w-[35%] flex justify-end items-center">
-              <div class="w-[37.6875rem]">
-                <h1 class="text-[2.25vw] leading-[2.7vw] text-[#291E18]">
+        <div
+          class="aspect-[430/450] md:aspect-[1720/702] container-exceptional"
+        >
+          <div
+            class="flex flex-col md:flex-row md:h-full md:w-full justify-center md:justify-between"
+          >
+            <div
+              class="w-full md:w-[35%] flex justify-center md:justify-end items-center"
+            >
+              <div class="w-full md:w-[37.6875rem]">
+                <h1
+                  class="text-[6.512vw] md:text-[2.25vw] text-center md:text-start leading-[8.372vw] md:leading-[2.7vw] text-[#291E18] pt-[11.628vw] md:pt-0"
+                >
                   Where Vision Meets Precision, Every Detail Matters.
                 </h1>
-                <p class="text-[0.938vw] my-[2.656vw] text-[#291E18CC]">
+                <p
+                  class="text-[4.186vw] md:text-[0.938vw] text-center md:text-start my-[10vw] md:my-[2.656vw] text-[#291E18CC] mx-[10vw] md:mx-0"
+                >
                   At Renoexpert, we believe every home has a unique story to
                   tell. Our skilled team in Singapore specializes in turning
                   your space into a narrative of style, comfort, and innovation.
                 </p>
-                <a
-                  class="bg-[#FF6D43] py-[0.938vw] px-[2.448vw] text-[#EEECE8] text-[0.729vw] rounded-full cursor-pointer inline-block items-center"
-                >
-                  <span>Make a free quote</span>
-
-                  <svg
-                    class="ml-[1.042vw] inline"
-                    width="54"
-                    height="7"
-                    viewBox="0 0 54 7"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
+                <div class="text-center md:flex md:gap-2 my-[10.93vw] md:my-0">
+                  <a
+                    class="bg-[#FF6D43] py-[4.186vw] px-[10.93vw] md:py-[0.938vw] md:px-[2.448vw] text-[#EEECE8] text-[3.256vw] md:text-[0.729vw] rounded-full cursor-pointer inline-block items-center"
                   >
-                    <path
-                      d="M48.8887 2.99497V0.469971L53.3887 3.49997L48.8887 6.52997V4.00497H0.388672V2.99497H48.8887Z"
-                      fill="#EEECE8"
-                    />
-                  </svg>
-                </a>
+                    <span>Make a free quote</span>
+
+                    <svg
+                      class="ml-[1.042vw] inline"
+                      width="54"
+                      height="7"
+                      viewBox="0 0 54 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M48.8887 2.99497V0.469971L53.3887 3.49997L48.8887 6.52997V4.00497H0.388672V2.99497H48.8887Z"
+                        fill="#EEECE8"
+                      />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
             <div class="h-full flex w-[63%] justify-end items-center">
@@ -1716,18 +1728,19 @@
       <!-- service section start  -->
       <section class="service bg-[#EEECE8] min-h-[35rem] w-full">
         <div class="container-general mx-auto">
-          <div class="flex gap-[1.875vw] items-center py-[4.167vw]">
+          <div class="md:flex gap-[1.875vw] items-center py-[4.167vw]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="8"
               height="8"
               viewBox="0 0 8 8"
               fill="none"
+              class="hidden md:block"
             >
               <circle cx="4" cy="4" r="4" fill="#FF6D43" />
             </svg>
             <h1
-              class="text-[#291E18] text-center lg:text-[2.24vw] md:text-[2.24vw] sm:text-[6.512vw]"
+              class="text-[#291E18] text-center text-[6.512vw] md:text-[2.24vw] sm:text-[6.512vw]"
             >
               Our Services
             </h1>
@@ -2041,19 +2054,21 @@
         <div class="pb-[10.833vw] container-general">
           <div class="mb-[4.167vw]">
             <h1
-              class="text-gray-900 text-center not-italic font-normal lg:leading-10 md:leading-7 sm:leading-3 lg:text-[2.292vw] md:text-[2.292vw] sm:text-[6.512vw] lg:mb-[1.458vw] md:mb-[1.458vw] sm:mb-[3.488vw]"
+              class="text-gray-900 text-center not-italic font-normal lg:leading-10 md:leading-7 leading-3 md:text-[2.292vw] text-[6.512vw] md:mb-[1.458vw] mb-[3.488vw]"
             >
               See how we work
             </h1>
             <p
-              class="text-gray-900 text-center text-base not-italic font-normal lg:leading-6 md:leading-5 sm:leading-3 lg:w-[44.792vw] md:w-[44.792vw] sm:w-[80vw] m-auto opacity-70 px-[4.167vw]"
+              class="text-gray-900 text-center text-[3.60vw] md:text-base not-italic font-normal md:leading-5 leading-[3.907vw] md:w-[44.792vw] w-[100vw] m-auto opacity-70 md:px-[4.167vw] px-[8vw]"
             >
               Our seasoned team of professionals brings years of expertise to
               every project. From conceptualization to execution.
             </p>
           </div>
           <!-- video section start  -->
-          <div class="videoReno w-[63.385vw] h-[29.531vw] m-auto">
+          <div
+            class="videoReno w-full md:w-[63.385vw] h-auto md:h-[29.531vw] m-auto"
+          >
             <video
               controls
               src="./asset/video/Construction_promo_video.mp4"
