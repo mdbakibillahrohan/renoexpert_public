@@ -101,6 +101,26 @@
   top: 2rem;
 }
 
+
+.service {
+  position: relative;
+  text-align: center;
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+}
+
+.simulation_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+
 /* here started some utitlity classes  */
 .container-general {
   width: 80%;
