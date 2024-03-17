@@ -122,4 +122,9 @@
     width: 100%;
     margin: 0 auto 0 auto;
   }
+
+  .hero-img {
+    background-image: url("../img/hero-mobile.png");
+    background-size: 100% 100%;
+  }
 }
