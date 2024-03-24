@@ -100,9 +100,9 @@ html{
   right: 2rem;
 }
 
-.choose_head_text {
+/* .choose_head_text {
   position: relative;
-}
+} */
 
 .choose_head_border {
   position: absolute;
@@ -165,6 +165,25 @@ html{
   .min-w-32 { min-width: 8rem }
 /* navbar css  */
 
+
+
+/* here started the ready to renovate section  */
+.ready-to-renovate{
+  background-size: cover;
+  background-color: black;
+  position: relative;
+}
+.ready-to-renovate::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../img/ready-to-renovate-bg.png);
+  opacity: 0.3;
+}
+/* here ended the ready to renovate section  */
 
 
 @media only screen and (max-width: 768px) {
