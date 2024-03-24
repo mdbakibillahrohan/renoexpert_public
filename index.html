@@ -190,7 +190,7 @@
         <!-- desktop navbar ended here  -->
 
         <!-- Mobile navbar started  -->
-        <nav class="md:hidden w-[100vw] aspect-[430/77]">
+        <nav class="md:hidden w-full aspect-[430/77]">
           <div class="flex items-center justify-between h-full px-[2.083vw]">
             <a href="/">
               <img class="w-[33.86vw]" src="asset/img/reno_logo.png" alt="" />
@@ -2452,16 +2452,14 @@
               See how we work
             </h1>
             <p
-              class="text-gray-900 text-center text-[3.60vw] md:text-base not-italic font-normal md:leading-5 leading-[3.907vw] md:w-[44.792vw] w-[100vw] m-auto opacity-70 md:px-[4.167vw] px-[8vw]"
+              class="text-gray-900 text-center text-[3.60vw] md:text-base not-italic font-normal md:leading-5 leading-[3.907vw] md:w-[44.792vw] w-full m-auto opacity-70 md:px-[4.167vw] px-[8vw]"
             >
               Our seasoned team of professionals brings years of expertise to
               every project. From conceptualization to execution.
             </p>
           </div>
           <!-- video section start  -->
-          <div
-            class="videoReno w-full md:w-[63.385vw] h-auto md:h-[29.531vw] m-auto"
-          >
+          <div class="videoReno w-full md:w-[63.385vw] h-auto md:h-[29.531vw]">
             <video
               controls
               src="./asset/video/Construction_promo_video.mp4"
@@ -2552,7 +2550,9 @@
           class="container-general flex sm:flex-col md:flex-row justify-between items-center gap-10"
         >
           <div class="">
-            <div class="flex gap-9 items-center">
+            <div
+              class="flex gap-9 items-center justify-center md:justify-start"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="8"
@@ -2564,13 +2564,13 @@
                 <circle cx="4" cy="4" r="4" fill="#FF6D43" />
               </svg>
               <h1
-                class="text-[#291E18] text-center text-[6.512vw] md:text-[2.25vw] font-normal mx-[27.907vw] md:mx-0"
+                class="text-[#291E18] text-center text-[6.512vw] md:text-[2.25vw] font-normal"
               >
                 Testimonials
               </h1>
             </div>
             <p
-              class="text-[#291E18] mt-[2.656vw] leading-[3.907vw] md:leading-[1.25vw] md:w-[27.5vw] text-[3.256vw] md:text-[0.833vw] text-centers mx-[9.767vw] md:mx-0"
+              class="text-[#291E18] mt-[2.656vw] leading-[3.907vw] md:leading-[1.25vw] md:w-[27.5vw] text-[3.256vw] md:text-[0.833vw] text-center md:text-start"
             >
               Discover the stories of satisfaction and joy from our valued
               clients. Their experiences with Renoexpert go beyond renovations.
@@ -2775,12 +2775,16 @@
           <div class="l-side flex flex-col gap-[15vw] md:gap-[3.333vw]">
             <!-- div 1 -->
             <div
-              class="mx-[10vw] md:mx-0 flex gap-[2.326vw] md:gap-[0.469vw] justify-center items-start"
+              class="flex gap-[2.326vw] md:gap-[0.469vw] justify-center items-start"
             >
               <div
-                class="w-[43.953vw] p-[3.488vw] md:p-0 aspect-[1/1] md:h-[7.5vw] md:w-[7.5vw] bg-[#c6e4ee] flex justify-center items-center"
+                class="w-[22.326vw] h-[22.326vw] p-[3.488vw] md:p-0 md:h-[7.5vw] md:w-[7.5vw] bg-[#c6e4ee] flex justify-center items-center"
               >
-                <img class="img-fluid" src="./asset/img/team.png" alt="team" />
+                <img
+                  class="md:img-fluid"
+                  src="./asset/img/team.png"
+                  alt="team"
+                />
               </div>
               <div>
                 <h3
@@ -2800,12 +2804,16 @@
             <!-- div 1 -->
             <!-- div 1 -->
             <div
-              class="mx-[10vw] md:mx-0 flex gap-[2.326vw] md:gap-[0.469vw] justify-center items-start"
+              class="flex gap-[2.326vw] md:gap-[0.469vw] justify-center items-start"
             >
               <div
-                class="w-[43.953vw] p-[3.488vw] md:p-0 aspect-[1/1] md:h-[7.5vw] md:w-[7.5vw] bg-[#c6e4ee] flex justify-center items-center"
+                class="w-[22.326vw] h-[22.326vw] p-[3.488vw] md:p-0 md:h-[7.5vw] md:w-[7.5vw] bg-[#c6e4ee] flex justify-center items-center"
               >
-                <img class="img-fluid" src="./asset/img/team.png" alt="team" />
+                <img
+                  class="md:img-fluid"
+                  src="./asset/img/dollar.png"
+                  alt="team"
+                />
               </div>
               <div>
                 <h3
@@ -2827,12 +2835,16 @@
             <!-- div 1 -->
             <!-- div 1 -->
             <div
-              class="mx-[10vw] md:mx-0 flex gap-[2.326vw] md:gap-[0.469vw] justify-center items-start"
+              class="flex gap-[2.326vw] md:gap-[0.469vw] justify-center items-start"
             >
               <div
-                class="w-[43.953vw] p-[3.488vw] md:p-0 aspect-[1/1] md:h-[7.5vw] md:w-[7.5vw] bg-[#c6e4ee] flex justify-center items-center"
+                class="w-[22.326vw] h-[22.326vw] p-[3.488vw] md:p-0 md:h-[7.5vw] md:w-[7.5vw] bg-[#c6e4ee] flex justify-center items-center"
               >
-                <img class="img-fluid" src="./asset/img/team.png" alt="team" />
+                <img
+                  class="md:img-fluid"
+                  src="./asset/img/clock_time.png"
+                  alt="team"
+                />
               </div>
               <div>
                 <h3
@@ -2853,12 +2865,16 @@
             <!-- div 1 -->
             <!-- div 1 -->
             <div
-              class="mx-[10vw] md:mx-0 flex gap-[2.326vw] md:gap-[0.469vw] justify-center items-start md:hidden"
+              class="flex gap-[2.326vw] md:gap-[0.469vw] justify-center items-start md:hidden"
             >
               <div
-                class="w-[43.953vw] p-[3.488vw] md:p-0 aspect-[1/1] md:h-[7.5vw] md:w-[7.5vw] bg-[#c6e4ee] flex justify-center items-center"
+                class="w-[22.326vw] h-[22.326vw] p-[3.488vw] md:p-0 md:h-[7.5vw] md:w-[7.5vw] bg-[#c6e4ee] flex justify-center items-center"
               >
-                <img class="img-fluid" src="./asset/img/team.png" alt="team" />
+                <img
+                  class="md:img-fluid"
+                  src="./asset/img/team.png"
+                  alt="team"
+                />
               </div>
               <div>
                 <h3
@@ -2879,12 +2895,16 @@
             <!-- div 1 -->
             <!-- div 1 -->
             <div
-              class="mx-[10vw] md:mx-0 flex gap-[2.326vw] md:gap-[0.469vw] justify-center items-start md:hidden"
+              class="flex gap-[2.326vw] md:gap-[0.469vw] justify-center items-start md:hidden"
             >
               <div
-                class="w-[43.953vw] p-[3.488vw] md:p-0 aspect-[1/1] md:h-[7.5vw] md:w-[7.5vw] bg-[#c6e4ee] flex justify-center items-center"
+                class="w-[22.326vw] h-[22.326vw] p-[3.488vw] md:p-0 md:h-[7.5vw] md:w-[7.5vw] bg-[#c6e4ee] flex justify-center items-center"
               >
-                <img class="img-fluid" src="./asset/img/team.png" alt="team" />
+                <img
+                  class="md:img-fluid"
+                  src="./asset/img/team.png"
+                  alt="team"
+                />
               </div>
               <div>
                 <h3
