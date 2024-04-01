@@ -64,3 +64,44 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // mobile navbar js ended here
+
+// lazy loading section
+document.addEventListener("DOMContentLoaded", function () {
+  var lazyImages = document.querySelectorAll(".lazy");
+
+  var lazyLoad = function () {
+    lazyImages.forEach(function (img) {
+      if (
+        img.getBoundingClientRect().top < window.innerHeight &&
+        img.getBoundingClientRect().bottom >= 0 &&
+        getComputedStyle(img).display !== "none"
+      ) {
+        img.src = img.dataset.src;
+        img.classList.remove("lazy");
+        lazyImage.classList.add("loaded");
+      }
+    });
+  };
+
+  if ("IntersectionObserver" in window) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var lazyImage = entry.target;
+          lazyImage.src = lazyImage.dataset.src;
+          lazyImage.classList.remove("lazy");
+          lazyImage.classList.add("loaded");
+          observer.unobserve(lazyImage);
+        }
+      });
+    });
+
+    lazyImages.forEach(function (img) {
+      observer.observe(img);
+    });
+  } else {
+    lazyLoad(); // Fallback for browsers not supporting Intersection Observer
+  }
+});
+
+// lazy loading section
