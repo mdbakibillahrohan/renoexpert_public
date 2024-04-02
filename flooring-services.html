@@ -248,13 +248,49 @@
       <section
         class="hero border-[#BEB8AE] bg-[#EEECE8] w-full border-b-[0.1rem] pt-12 md:pt-0"
       >
-        <div
-          class="aspect-[430/450] md:aspect-[1720/702] container-exceptional"
-        >
-          <div
-            class="flex flex-col md:flex-row md:h-full md:w-full items-center justify-center md:justify-between"
-          >
-            <!-- new content add here  -->
+        <div class="aspect-[430/450] md:aspect-[1920/800] w-full">
+          <div class="hero-img w-full h-full relative">
+            <img
+              class="w-full h-full"
+              src="./asset/img/flooring_hero_img.png"
+              alt="flooring-services"
+            />
+            <!-- Overlay div -->
+            <div
+              class="w-full h-full overlay-bg top-0 bottom-0 left-0 right-0 absolute z-10"
+            ></div>
+
+            <!-- Content -->
+            <div
+              class="absolute top-[38%] left-[10.417vw] text-white text-left z-20 overflow-hidden max-w-[30vw]"
+            >
+              <h1 class="text-[2.5vw] leading-[3vw] font-bold text-[#EEECE8]">
+                Flooring
+              </h1>
+              <p
+                class="text-[0.938vw] text-left leading-[1.458vw] text-[#EEECE8] pb-[2.813vw] pt-[1.042vw]"
+              >
+                Our experts guide you through a range of materials and styles,
+                ensuring a floor that not only meets your needs but exceeds your
+                expectations.
+              </p>
+
+              <div
+                class="text-center flex justify-center md:justify-start gap-[1.094vw] items-center my-[10.93vw] md:my-0"
+              >
+                <a
+                  class="bg-[#FF6D43] py-[4.186vw] px-[4.93vw] md:py-[1.823vw] md:px-[1.979vw] text-[#EEECE8] text-[3.256vw] md:text-[0.729vw] rounded-full cursor-pointer inline-block items-center"
+                  href="#projects"
+                >
+                  <img src="./asset/icons/painting_service.png" alt="" />
+                </a>
+                <span
+                  class="text-center text-[3.5vw] md:text-[0.833vw] md:leading-[1vw]"
+                >
+                  PROJECTS
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -262,7 +298,7 @@
 
       <!-- google review section start -->
       <div class="w-full bg-[#EEECE8] border-[#BEB8AE] border-b-[0.1rem]">
-        <div class="container-exceptional py-[5vw]">
+        <div class="py-[5vw]">
           <div class="flex justify-center items-center mt-[16.279vw] md:mt-0">
             <h1 class="text-[6.527vw] md:text-[1.875vw]">
               <span class="text-[#FF6D43]">5.0</span> Rating on
@@ -275,7 +311,7 @@
           </div>
           <!-- here started the content section of google review  -->
           <div
-            class="md:mt-[3.646vw] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3"
+            class="md:mt-[3.646vw] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 container-exceptional"
           >
             <div
               class="flex w-full items-center flex-col md:flex-row md:col-span-1"
@@ -1826,6 +1862,7 @@
       <!-- google review section end -->
 
       <!-- project section here start  -->
+      <div id="projects"></div>
 
       <!-- project section here end -->
 
