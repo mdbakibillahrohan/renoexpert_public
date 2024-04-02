@@ -50,6 +50,7 @@ const testimonialSlider = new Glider(
   {
     slidesToShow: 1,
     draggable: true,
+    rewind: true,
     arrows: {
       prev: ".testimonial-prev-m",
       next: ".testimonial-next-m",
