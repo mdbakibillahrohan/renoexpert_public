@@ -237,10 +237,6 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(240, 239, 239, 0) 80%)
   transition: all ease-in-out 0.6s;
 }
 
-.outer-div::before{
-  
-  
-}
 
 .outer-div:hover .overlay{
   background: #000;
@@ -259,13 +255,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(240, 239, 239, 0) 80%)
   transition: 0.6s ease-in-out all;
 }
 
-.outer-div:hover{
-  /* background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 100%); */
-  /* opacity: 0.7; */
-  /* background: #000; */
-  /* z-index: 2; */
-}
+
 
 .outer-div:hover .inner-div{
   z-index: 2;
