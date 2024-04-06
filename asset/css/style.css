@@ -263,3 +263,15 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(240, 239, 239, 0) 80%)
 }
 
 /* services css end here  */
+
+
+
+/* project page css start here  */
+.project-hero-img {
+  background-image: url("../img/project_hero_img.png");
+  z-index: 4;
+  background-repeat: no-repeat;
+  background-size: 110% 100%;
+}
+
+/* project page css end here */
