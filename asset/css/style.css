@@ -200,6 +200,15 @@ html{
     background-image: url("../img/hero-mobile.png");
     background-size: 100% 100%;
   }
+
+  /* project page css start here  */
+  .project-hero-img-mobile {
+    background-image: url(../img/project-hero-img-mobile.png) !important;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  /* project page css end here */
 }
 
 
@@ -271,7 +280,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(240, 239, 239, 0) 80%)
   background-image: url("../img/project_hero_img.png");
   z-index: 4;
   background-repeat: no-repeat;
-  background-size: 110% 100%;
+  background-size: 100% 100%;
 }
 
 /* project page css end here */
