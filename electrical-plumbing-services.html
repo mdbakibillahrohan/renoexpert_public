@@ -259,18 +259,24 @@
             />
             <!-- Overlay div -->
             <div
-              class="w-full h-full overlay-bg top-0 bottom-0 left-0 right-0 absolute z-10"
+              class="w-full h-full overlay-bg top-0 bottom-0 left-0 right-0 absolute z-10 hidden md:block"
+            ></div>
+
+            <div
+              class="w-full h-full overlay-bg-radial top-0 bottom-0 left-0 right-0 absolute z-10 block md:hidden"
             ></div>
 
             <!-- Content -->
             <div
-              class="absolute top-[38%] left-[10.417vw] text-white text-left z-20 overflow-hidden max-w-[30vw]"
+              class="absolute top-20 left-7 md:top-[38%] md:left-[10.417vw] text-white text-left z-20 overflow-hidden md:max-w-[30vw] px-6"
             >
-              <h1 class="text-[2.5vw] leading-[3vw] text-[#EEECE8]">
+              <h1
+                class="text-[8.372vw] md:text-[2.5vw] text-center md:text-left leading-[8.372vw] md:leading-[3vw] text-[#EEECE8]"
+              >
                 Electrical and Plumbing
               </h1>
               <p
-                class="text-[0.938vw] text-left leading-[1.458vw] text-[#EEECE8] pb-[2.813vw] pt-[1.042vw]"
+                class="text[4.186vw] md:text-[0.938vw] text-center md:text-left leading-[5.023vw] md:leading-[1.458vw] text-[#EEECE8] pb-[2.813vw] pt-[1.042vw]"
               >
                 Our experts handle the technical aspects with precision,
                 delivering power and flow that align with the design and
@@ -278,7 +284,7 @@
               </p>
 
               <div
-                class="text-center flex justify-center md:justify-start gap-[1.094vw] items-center my-[10.93vw] md:my-0"
+                class="text-center flex flex-col-reverse md:flex-row justify-center md:justify-start gap-[1.094vw] items-center my-[10.93vw] md:my-0"
               >
                 <a
                   class="bg-[#FF6D43] py-[4.186vw] px-[4.93vw] md:py-[1.823vw] md:px-[1.979vw] text-[#EEECE8] text-[3.256vw] md:text-[0.729vw] rounded-full cursor-pointer inline-block items-center"
@@ -287,7 +293,7 @@
                   <img src="./asset/icons/painting_service.png" alt="" />
                 </a>
                 <span
-                  class="text-center text-[3.5vw] md:text-[0.833vw] md:leading-[1vw]"
+                  class="text-center text-[4.651vw] md:text-[0.833vw] leading-[5.581vw] md:leading-[1vw]"
                 >
                   PROJECTS
                 </span>
