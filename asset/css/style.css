@@ -258,6 +258,13 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(240, 239, 239, 0) 80%)
   opacity: 0.8;
 }
 
+
+.overlay-bg-dark{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.7777485994397759) 0%, rgba(0,0,0,0.7553396358543417) 100%);
+  opacity: 0.8;
+}
+
 .outer-div{
   transition: all ease-in-out 1s;
 }
