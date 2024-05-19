@@ -83,8 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 
-  lazyLoad();
-
   if ("IntersectionObserver" in window) {
     var observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
