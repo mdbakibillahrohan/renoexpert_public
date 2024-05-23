@@ -205,6 +205,25 @@ html{
 /* here ended the ready to renovate section  */
 
 
+/* here started the ready to renovate section  */
+.calculator-hero{
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+}
+.calculator-hero::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../img/testimonial_bg.png);
+  opacity: 1;
+}
+/* here ended the ready to renovate section  */
+
+
 @media only screen and (max-width: 768px) {
   .container-exceptional {
     width: 100%;
