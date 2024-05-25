@@ -1,3 +1,8 @@
+
+//For animation
+AOS.init();
+//For animation
+
 // video section js
 let play = document.getElementsByClassName("play");
 let videoReno = document.getElementsByClassName("videoReno");
