@@ -14,6 +14,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="asset/css/glider.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
 
   <body>
@@ -27,9 +28,10 @@
           <div class="logo">
             <a href="/">
               <img
-                class="w-[10.781vw] aspect-[207/40]"
+                class="w-[10.781vw] aspect-[207/40] lazyload"
                 src="./asset/img/reno_logo.png"
                 alt="Reno Expert"
+                loading="lazy"
               />
             </a>
           </div>
@@ -1902,7 +1904,7 @@
               class="md:w-[37.917vw] w-[90%] mx-auto md:aspect-[729/450] md:flex mb-[6.047vw] md:mb-0"
             >
               <img
-                class="md:hidden w-full md:h-0"
+                class="md:hidden w-full md:h-0 lazyload"
                 src="asset/img/service_paint_mobile.png"
                 alt="painting-services"
               />
@@ -1973,10 +1975,12 @@
               </div>
               <div class="md:w-1/4 md:h-full hidden md:block">
                 <img
+                  data-src="asset/img/service_paint.png"
                   src="asset/img/service_paint.png"
-                  class="h-full"
+                  class="h-full loading="lazy""
                   alt=""
                   srcset=""
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -1987,9 +1991,11 @@
               class="md:w-[37.917vw] w-[90%] mx-auto md:aspect-[729/450] md:flex mb-[6.047vw] md:mb-0"
             >
               <img
-                class="md:hidden w-full md:h-0"
+                class="md:hidden w-full md:h-0 lazyload"
+                data-src="asset/img/service_demolition_mobile.png"
                 src="asset/img/service_demolition_mobile.png"
                 alt="demolition-services"
+                loading="lazy"
               />
               <div
                 class="md:w-3/4 w-full md:h-full bg-white pt-[6.977vw] px-[8.14vw] pb-[10.465vw] md:pt-0 md:px-0 md:pb-0"
@@ -2057,10 +2063,10 @@
               </div>
               <div class="md:w-1/4 md:h-full hidden md:block">
                 <img
+                  data-src="asset/img/service_demolition.png"
                   src="asset/img/service_demolition.png"
-                  class="h-full"
+                  class="h-full lazyload"
                   alt=""
-                  srcset=""
                 />
               </div>
             </div>
@@ -2071,9 +2077,11 @@
               class="md:w-[37.917vw] w-[90%] mx-auto md:aspect-[729/450] md:flex mb-[6.047vw] md:mb-0"
             >
               <img
-                class="md:hidden w-full md:h-0"
-                src="asset/img/service_masonry_mobile.png"
+                class="md:hidden w-full md:h-0 lazyload"
+                src="asset/img/lazy/masonary_service_img-min.jpg"
+                data-src="asset/img/service_masonry_mobile.png"
                 alt="plumbing-services"
+                loading="lazy"
               />
               <div
                 class="md:w-3/4 w-full md:h-full bg-white pt-[6.977vw] px-[8.14vw] pb-[10.465vw] md:pt-0 md:px-0 md:pb-0"
@@ -2141,10 +2149,11 @@
               </div>
               <div class="md:w-1/4 md:h-full hidden md:block">
                 <img
-                  src="asset/img/service_masonry.png"
-                  class="h-full"
+                  src="asset/img/lazy/masonary_service_img-min.jpg"
+                  data-src="asset/img/service_masonry.png"
+                  class="h-full lazyload"
                   alt=""
-                  srcset=""
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -2156,7 +2165,8 @@
             >
               <img
                 class="md:hidden w-full md:h-0"
-                src="asset/img/service_floring_mobile.png"
+                src="asset/img/lazy/masonary_service_img-min.jpg"
+                data-src="asset/img/service_floring_mobile.png"
                 alt="plumbing-services"
               />
               <div
@@ -2588,6 +2598,7 @@
             >
               <img
                 class="w-[4.465vw] aspect-[1/1] md:hidden"
+                
                 src="./asset/img/appostopic_coma.png"
                 alt="coma"
               />
@@ -3563,7 +3574,8 @@
 
       <!-- mobile footer section end -->
     </div>
-
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="./asset/js/lazy-load.js"></script>
     <script src="./asset/js/glider.js"></script>
     <script src="./asset/js/script.js"></script>
     <script src="./asset/js/slider.js"></script>
